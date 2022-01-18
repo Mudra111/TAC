@@ -1,0 +1,96 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+.nav1{
+    padding-right: 117px; 
+    padding-left: 117px; 
+    padding-top:30px;
+    background: transparent;
+    padding-bottom: 25px;
+  }
+
+.joinbtn{
+    border: 3px solid green;
+    border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: green;
+}
+.joinbtn:hover{
+    background-color: green;
+    color: black;
+}
+ .drop{
+     width: 500px;
+ } 
+ .rdolbl {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .rdolbl input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .rdolbl:hover{
+      background-color: lightgrey;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 15px;
+  }
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark::after {
+    content: "\2713";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .rdolbl input:checked ~ .checkmark::after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .rdolbl .checkmark:after {
+      width: 8px;
+      height: 8px;
+  }
+  .dropdown{
+      padding: 0;
+  }
+
+  .scroll{
+      height: 200px;
+      overflow-y: scroll;
+  }
+
+  .setlogo{
+      height: 38px;
+      width: 50px;
+  }
+
+  .right{
+      margin-right: auto;
+  }
+
+  body a.lh{
+      line-height: 0px;
+  }

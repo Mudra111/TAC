@@ -1,0 +1,54 @@
+a.nav-link{
+    color:white;
+}
+h6.nav-link:hover{
+    text-decoration: none;
+    color: white;
+}
+h6.nav-link{
+    color: white;
+}
+.footer{
+    color:white;
+}
+.bottom-nav{
+    padding:9px 90px 9px 9px;
+}
+.row{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.footer{
+    background-color: black;
+  }
+img{
+    background-color: black;
+}
+.nav-link:hover{
+    color:wheat;
+    text-decoration: underline;
+  }
+.fa{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+.fa:hover{
+    color: rgb(247, 231, 201);
+}
+.btn1{
+    background:transparent ;
+    border: none;
+    border-radius: 25px;
+    padding: 0.375rem 0.75rem;
+}
+.btn1:hover{
+ color: rgb(247, 231, 201);
+ background-color: rgb(65, 64, 64);
+}
+a.child{
+    pointer-events:auto;
+}
+.ftrp{
+    color:grey;
+}
