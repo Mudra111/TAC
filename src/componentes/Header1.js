@@ -14,7 +14,7 @@ export default function Header1() {
                     <li className="nav-item right">
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <button class="btn btn-outline-success" type="submit">Searchabc</button>
                         </form>
                     </li>
                     <li className="nav-item lh">
