@@ -27,52 +27,30 @@
  .drop{
      width: 500px;
  } 
- .rdolbl {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .rdolbl input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
 
-  .rdolbl:hover{
-      background-color: lightgrey;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 15px;
-  }
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark::after {
-    content: "\2713";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .rdolbl input:checked ~ .checkmark::after {
-    display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .rdolbl .checkmark:after {
-      width: 8px;
-      height: 8px;
-  }
+ .dropdownli{
+   padding: 0;
+   margin: 0;
+ }
+
+.dropdown-a{
+   padding: 0;
+   margin: 0;
+ }
+
+ .dropdown-p{
+   padding-left: 15px;
+ }
+
+ .tickmark{
+   height: 5px;
+   width: 5px;
+   color: black;
+   top: 0;
+   left: 0;
+   display: block;
+ }
+
   .dropdown{
       padding: 0;
   }
