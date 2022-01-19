@@ -3,7 +3,7 @@ import './App.css';
 import Header from "../src/Header";
 import Home from "../src/Home";
 import Footer from "./componentes/Footer";
-
+import tacb from "./componentes/tac-b";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Header/>
       <Home/>
       <Footer/>
+      <Tacb/>
     </div>
   );
 }
