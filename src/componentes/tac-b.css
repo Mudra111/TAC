@@ -1,0 +1,27 @@
+.tacb {
+    background-color: rgb(0, 0, 129);
+}
+.h2{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+    color: white;
+}
+.text-lines{
+    list-style-type:Bullets square;
+    margin-bottom: 0px;
+}
+.btn{
+    background-color: rgb(4, 139, 4);
+    border: none;
+    font-size: larger;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 5px;
+}
+.tacbp{
+    background-color: rgb(11, 153, 201);
+    margin-bottom: 10px;
+}
