@@ -21,9 +21,9 @@ h6.nav-link{
 .footer{
     background-color: black;
   }
-img{
+/* img{
     background-color: black;
-}
+} */
 .nav-link:hover{
     color:wheat;
     text-decoration: underline;
