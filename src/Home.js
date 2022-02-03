@@ -1,13 +1,13 @@
 
-import home1 from "./componentes/home1";
-import home2 from "./componentes/home2" ;
+import Home1 from "./componentes/home1";
+import Home2 from "./componentes/home2" ;
 
 
-function Home() {
+function Home(){
     return (
       <div>
-        <home1/>
-        <home2/>
+        <Home1/>
+        <Home2/>
       </div>
     );
   }

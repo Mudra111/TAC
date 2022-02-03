@@ -1,5 +1,6 @@
 import React from 'react'
-import './header2.css'
+import './header2.css';
+import {Link} from "react-router-dom";
 
 export default function Header2() {
     return (
@@ -18,7 +19,7 @@ export default function Header2() {
                         <li className="nav-item hov-eff">
                             <a className="active header2" id="navbarDropdown" data-bs-toggle="dropdown" href="#">Digital Marketing</a>
                             <ul className="dropdown-menu hoverdown" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
+                                <li className="dropdown-item"><Link to="/insta">Instagram</Link></li>
                                 <li><a className="dropdown-item" href="#">Another action</a></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>

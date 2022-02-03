@@ -1,17 +1,25 @@
-
 import './App.css';
 import Header from "../src/Header";
 import Home from "../src/Home";
 import Footer from "./componentes/Footer";
+import Insta from "./componentes/Insta";
+import { 
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header/>
-      <Home/>
+      <Routes>
+      <Route exact path="/" element={<Home/>}/>
+      <Route exact path="/insta" element={<Insta/>}/>
+      </Routes>
       <Footer/>
-    </div>
+      </Router>
   );
 }
 
