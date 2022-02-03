@@ -7,7 +7,6 @@ a{
 .nav2{
     margin-bottom: 0;
     background-color: black;
-    border-bottom: 5px solid white;
     /* z-index: 10; */
 }
 
@@ -30,6 +29,7 @@ ul li ul.hoverdown{
     display: none;
     position: absolute;
     z-index: 999;
+    top: 160px;
 }
 
 ul li:hover ul.hoverdown{
