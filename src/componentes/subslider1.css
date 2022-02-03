@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slideshow {
+    position: relative;
+}
+
+img.mainImg {
+    width: 297px;
+    height: 200px;
+    transition: all 500ms;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.actions {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: none;
+    justify-content: space-between
+}
+
+.actions button {
+    background: rgba(13, 13, 245, 0.867);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    /* margin: 5px; */
+    padding-top: 5px;
+}
+
+.App:hover .actions{
+    display: flex;
+}
+
+.actions button:active {
+    background: #c71212a2;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.actions div.next button{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.actions div.prev button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
