@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  width: 98.7vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background: rgba(200, 200, 200, 0.61);
+  z-index: 100;
+}
+
+.main-form1 {
+  width: 400px;
+  height: 90vh;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-form1 .head {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canclebtn {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.main-form1 form .user-det1 {
+  margin: 20px 0 12px 0;
+}
+
+form .user-det1 .input {
+  /* width: calc(100% / 1 - 20px); */
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.user-det1 .input input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.ask,
+.agreement {
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.ask {
+  margin-top: 10px;
+  /* border-top: 2px solid lightgray; */
+  width: 100%;
+}
+
+.ask a {
+  color: #05842d;
+  padding: 0;
+}
+
+.agreement span,
+.ask span {
+  margin-right: 7px;
+}
+
+.user-det1 .input input:focus,
+.user-det1 .input input:valid {
+  border-color: #05842d;
+}
+
+.button {
+  height: 45px;
+  margin: 20px 0;
+}
+
+.button button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: white;
+  border: none;
+  background: #05842d;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.button button:hover {
+  background: #14b346;
+}
+
+.logbtns {
+  height: 45px;
+  margin: 20px 0;
+}
+
+.logbtns button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logbtns button:hover {
+  background: rgba(255, 255, 255, 0.062);
+}
+
+.logbtns button svg {
+  margin-right: 30px;
+}
+
+.facebookbtn button {
+  background: #4267b2;
+  color: white;
+}
+.facebookbtn button:hover {
+  background: #4267b2bb;
+}
+
+.googlebtn button,
+.applebtn button {
+  background: white;
+  color: #62646a;
+  border: 1px solid #c1c3c8;
+  border-radius: 5px;
+}
+.googlebtn button:hover,
+.applebtn button:hover {
+  background: rgba(211, 211, 211, 0.342);
+}
+
+.seperator {
+  text-align: center;
+  height: 12px;
+  margin: 20px 0 32px;
+  border-bottom: 1px solid lightgray;
+}
+
+.seperator span {
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 0 8px;
+  background-color: #fff;
+  color: #62646a;
+}
+
+/* .seperator::before {
+  content: " ";
+  border-bottom: 1px solid gray;
+} */

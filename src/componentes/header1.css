@@ -1,74 +1,78 @@
-*{
- box-sizing: border-box;
- padding: 0;
- margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.nav1{
-    padding-right: 117px; 
-    padding-left: 117px; 
-    padding-top:30px;
-    background: transparent;
-    padding-bottom: 25px;
-  }
-
-.joinbtn{
-    border: 3px solid green;
-    border-radius: 30px;
-    padding-right: 20px;
-    padding-left: 20px; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: green;
+.nav1 {
+  padding-right: 117px;
+  padding-left: 117px;
+  padding-top: 30px;
+  background: transparent;
+  padding-bottom: 25px;
 }
-.joinbtn:hover{
-    background-color: green;
-    color: black;
+
+.searchbtn {
+  color: white !important;
 }
- .drop{
-     width: 500px;
- } 
 
- .dropdownli{
-   padding: 0;
-   margin: 0;
- }
+.joinbtn {
+  border: 3px solid green;
+  border-radius: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: green;
+}
+.joinbtn:hover {
+  background-color: green;
+  color: black;
+}
+.drop {
+  width: 500px;
+}
 
-.dropdown-a{
-   padding: 0;
-   margin: 0;
- }
+.dropdownli {
+  padding: 0;
+  margin: 0;
+}
 
- .dropdown-p{
-   padding-left: 15px;
- }
+.dropdown-a {
+  padding: 0;
+  margin: 0;
+}
 
- .tickmark{
-   height: 5px;
-   width: 5px;
-   color: black;
-   top: 0;
-   left: 0;
-   display: block;
- }
+.dropdown-p {
+  padding-left: 15px;
+}
 
-  .dropdown{
-      padding: 0;
-  }
+.tickmark {
+  height: 5px;
+  width: 5px;
+  color: black;
+  top: 0;
+  left: 0;
+  display: block;
+}
 
-  .scroll{
-      height: 200px;
-      overflow-y: scroll;
-  }
+.dropdown {
+  padding: 0;
+}
 
-  .setlogo{
-      height: 38px;
-      width: 50px;
-  }
+.scroll {
+  height: 200px;
+  overflow-y: scroll;
+}
 
-  .right{
-      margin-right: auto;
-  }
+.setlogo {
+  height: 38px;
+  width: 50px;
+}
 
-  body a.lh{
-      line-height: 0px;
-  }
+.right {
+  margin-right: auto;
+}
+
+body a.lh {
+  line-height: 0px;
+}
