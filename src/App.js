@@ -10,16 +10,19 @@ import {
 } from "react-router-dom";
 
 function App() {
+
   return (
     <Router>
       <Header/>
       <Routes>
-      <Route exact path="/" element={<Home/>}/>
+      <Route exact path="/" element={<Home user={true}/>}/>
+      <Route exact path="/home" element={<Home user={true}/>}/>
       <Route exact path="/insta" element={<Insta/>}/>
       </Routes>
       <Footer/>
       </Router>
   );
+  
 }
 
 export default App;

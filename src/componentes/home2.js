@@ -10,8 +10,11 @@ import Program from "./Images/program-icon.png";
 import Video from "./Images/video-icon.png";
 import Write from "./Images/write-icon.png";
 
-export default function home2() {
+
+export default function Home2() {
+
     return (
+        
         <div>
             <div className='container-1 text-align-center'>
                 <h2 className='heading'>Explore the marketplace</h2>
