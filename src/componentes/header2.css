@@ -1,45 +1,50 @@
-a{
-    padding:0.5rem 1rem;
-    color:black;
-    text-decoration: none;
+a {
+	padding: 0.5rem 1rem;
+	color: black;
+	text-decoration: none;
 }
 
-.nav2{
-    margin-bottom: 0;
-    background-color: black;
-    /* z-index: 10; */
+.nav2 {
+	margin-bottom: 0;
+	background-color: black;
+	display: none;
+	/* z-index: 10; */
 }
 
-a.header2{
-    color: white;
-    text-decoration: none;
+.nav2-show {
+	display: block;
+	box-shadow: 3px 3px 3px rgb(63, 62, 62);
 }
 
-.hov-eff{
-    padding: 10px 0px;
+a.header2 {
+	color: white;
+	text-decoration: none;
 }
 
-li.hov-eff:hover{
-    border-bottom: 5px solid rgb(35, 156, 165);
+.hov-eff {
+	padding: 10px 0px;
 }
 
-ul li ul.hoverdown{
-   
-    background: #f2f2f2;
-    display: none;
-    position: absolute;
-    z-index: 999;
-    top: 160px;
+li.hov-eff:hover {
+	border-bottom: 5px solid rgb(35, 156, 165);
 }
 
-ul li:hover ul.hoverdown{
-    display: block;	
+ul li ul.hoverdown {
+	background: #f2f2f2;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	top: 160px;
 }
 
-ul li ul.hoverdown li{
-    display: block;
+ul li:hover ul.hoverdown {
+	display: block;
 }
 
-ul.hoverdown{
-    top: 142px;
+ul li ul.hoverdown li {
+	display: block;
+}
+
+ul.hoverdown {
+	top: 142px;
 }

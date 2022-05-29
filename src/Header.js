@@ -1,15 +1,26 @@
 import Header1 from "./componentes/Header1";
-import Header2 from "./componentes/Header2";
 
+import { useState } from "react";
 
 function Header() {
-    return (
-      <div>
-        <Header1/>
-        <Header2/>
-      </div>
-    );
-  }
-  
-  export default Header;
-  
+	const [navbar, setNavbar] = useState(false);
+
+	const changeHeader = () => {
+		if (window.scrollY >= 80) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
+
+	window.addEventListener("scroll", changeHeader);
+
+	return (
+		<div>
+			<Header1 navbar = {navbar}/>
+			
+		</div>
+	);
+}
+
+export default Header;
