@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./header1.css";
 import Header2 from "./Header2";
 import logo from "./Images/logo.png";
@@ -196,9 +197,24 @@ export default function Header1(props) {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="signbtn" href="#">
+							<a
+								className="signbtn active"
+								id="navbarDropdown"
+								data-bs-toggle="dropdown"
+								aria-current="page"
+								href="#"
+							>
 								<b>Sign in</b>
 							</a>
+							<ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+								<Link to="/dashboard">
+									<a className="dropdown-item" href="#">
+										Dashboard
+									</a>
+									</Link>
+								</li>
+							</ul>
 						</li>
 						<li className="nav-item">
 							<button

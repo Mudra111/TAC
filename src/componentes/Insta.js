@@ -4,6 +4,7 @@ import Item from "./slider2-com";
 import Subslider1 from "./subslider1";
 import "./subslider2.css";
 import profilepic from "./Images/profile-pic.png";
+import Header from "../Header";
 
 export default function Insta() {
   const [items, setItems] = useState([]);
@@ -41,6 +42,7 @@ export default function Insta() {
 
   return (
     <div>
+    <Header />
       <div className="row row-cols-4">
         {items.map((item) => {
           return (
