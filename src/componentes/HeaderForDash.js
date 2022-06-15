@@ -30,9 +30,11 @@ export default function HeaderForDash(props) {
 							</form>
 						</li>
 						<li className="nav-item lh">
-							<a className="active" aria-current="page" href="#">
-								<b>Dashboard</b>
-							</a>
+							<Link to="/dashboard">
+								<a className="active" aria-current="page" href="#">
+									<b>Dashboard</b>
+								</a>
+							</Link>
 						</li>
 						<li className="nav-item dropdown">
 							<a id="navbarDropdown" data-bs-toggle="dropdown" href="#">

@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
 	return (
 		<Router>
-			
 			<Routes>
 				<Route exact path="/" element={<Home user={true} />} />
 				<Route exact path="/home" element={<Home user={true} />} />
