@@ -6,6 +6,7 @@
 .order-body {
   background-color: #f5f5f4;
   padding-bottom: 20px;
+  height: 200vh;
 }
 
 .order-display {
@@ -34,12 +35,6 @@
   border: 2px solid gray;
 }
 
-input[type="search"]:focus {
-  border-bottom: 2px solid green;
-  box-shadow: none;
-  outline-offset: none !important;
-}
-
 .searchbar form {
   display: flex;
 }
@@ -49,12 +44,12 @@ input[type="search"]:focus {
   background: transparent;
 }
 
-.order-searchbtn::before {
-  content: "\f002";
-  font-family: FontAwesome;
-  font-size: 20px;
-  line-height: 19px;
+.order-searchbtn svg {
   color: gray;
+}
+
+.order-searchbtn svg:hover {
+  color: green;
 }
 
 .subnav-list {
