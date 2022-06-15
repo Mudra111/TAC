@@ -1,0 +1,490 @@
+.mainConForDash {
+	display: grid;
+	gap: 40px;
+	background-color: rgba(215, 214, 214, 0.675);
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+.gridItem1 {
+	grid-column: 1;
+	grid-row: 1 / span 13;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+}
+
+.firstInnDivForItem1 {
+	display: flex;
+	width: 335px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.ImgForItem1 {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.SecondInnDivForItem1 {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 200px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.ThirdInnForI1 {
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.HrForI1 {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.FstLiInI1 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.SndLiInI1 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.TrdLiInI1 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.FrthLiInI1 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.FfthLiInI1 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	list-style: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.FrthInnForI1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.FfthInnForI1 {
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.SixInnForI1 {
+	padding-right: 20px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.SvnInnForI1 {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 15px;
+}
+
+.eitInnForI1 {
+	width: 100px;
+}
+
+.gridItem2 {
+	background-color: white;
+	grid-column: 2 / span 3;
+	grid-row: 1 / span 3;
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-top: 10px;
+	margin-right: 20px;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+}
+
+.FrstInnForI2 {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.BtnForI2 {
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 4px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.BtnForI2:hover {
+	background-color: rgba(0, 0, 0, 0.699);
+	color: white;
+}
+
+.gridItem3 {
+	grid-column: 2 / span 3;
+	grid-row: 4 / span 8;
+	margin-right: 20px;
+}
+
+.lineForUB {
+	width: 100%;
+	height: 45px;
+	position: relative;
+	font-size: larger;
+	color: rgb(100, 99, 99);
+	font-weight: 600;
+}
+
+.lineForUB::before {
+	content: "";
+	position: absolute;
+	margin: auto;
+	height: 2px;
+	background-color: rgb(100, 99, 99);
+	right: 0;
+	top: 32%;
+	width: 79%;
+}
+
+.Item3Innerbox {
+	background-color: white;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+	height: 75%;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 35px;
+}
+
+.FirstInnForI3 {
+	float: left;
+	width: 60%;
+}
+
+.H5ForI3 {
+	font-weight: 700;
+}
+
+.SecondInnForI3 {
+	font-size: large;
+	padding-top: 15px;
+	font-weight: 500;
+	color: gray;
+}
+
+.ThirdInnForI3 {
+	float: right;
+}
+
+.ImgForI3 {
+	height: 175px;
+}
+
+.gridItem4 {
+	background-color: white;
+	grid-column: 1;
+	grid-row: 14 / span 3;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+}
+
+.FirstInnForI4 {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 18px;
+}
+
+.SndInnForI4 {
+	font-size: 18px;
+	padding: 0.5rem 1rem;
+	font-weight: 500;
+}
+
+.LinkForI4 {
+	color: blue;
+}
+
+.gridItem5 {
+	background-color: white;
+	grid-column: 2 / span 3;
+	grid-row: 12 / span 13;
+	margin-right: 20px;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+}
+
+.FrstInnForI5 {
+	padding: 10px;
+}
+
+.SndInnForI5 {
+	text-align: center;
+	padding: 15px;
+}
+
+.TrdInnForI5 {
+	display: grid;
+	padding-left: 20px;
+	gap: 15px;
+	padding-top: 20px;
+}
+
+.frthInnForI5 {
+	grid-row: 1;
+	grid-column: 1 / span 5;
+	width: 250px;
+}
+
+.FfthInnForI5 {
+	grid-row: 1;
+	grid-column: 6 / span 3;
+	width: 250px;
+}
+
+.SixInnForI5 {
+	grid-row: 1;
+	grid-column: 9 / span 3;
+	width: 250px;
+}
+
+.SvnInnForI5 {
+	color: gray;
+	font-size: 15px;
+	font-weight: 500;
+	height: 170px;
+}
+
+.EithInnForI5 {
+	color: gray;
+	font-size: 15px;
+	font-weight: 500;
+	height: 170px;
+}
+
+.NinInnForI5 {
+	color: gray;
+	font-size: 15px;
+	font-weight: 500;
+	height: 170px;
+}
+
+.Img1ForI5 {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.Img2ForI5 {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.Img3ForI5 {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.Btn1ForI5 {
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 255, 0.63);
+	color: rgba(0, 0, 255, 0.63);
+	font-weight: 500;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.Btn1ForI5:hover {
+	background-color: rgba(0, 0, 255, 0.63);
+	color: white;
+}
+
+.Btn2ForI5 {
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 255, 0.63);
+	color: rgba(0, 0, 255, 0.63);
+	font-weight: 500;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.Btn2ForI5:hover {
+	background-color: rgba(0, 0, 255, 0.63);
+	color: white;
+}
+
+.Btn3ForI5 {
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 255, 0.63);
+	color: rgba(0, 0, 255, 0.63);
+	font-weight: 500;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.Btn3ForI5:hover {
+	background-color: rgba(0, 0, 255, 0.63);
+	color: white;
+}
+
+.gridItem6 {
+	background-color: white;
+	grid-column: 1;
+	grid-row: 17 / span 6;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+}
+
+.FrstInnForI6 {
+	padding: 10px;
+}
+
+.SndInnForI6 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.ImgForI6 {
+	width: 15px;
+	height: 15px;
+}
+
+.TrdInnForI6 {
+	display: flex;
+	width: 300px;
+	padding-left: 15px;
+	flex-wrap: wrap;
+}
+
+.Img1ForI6 {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Img2ForI6 {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Img3ForI6 {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Img4ForI6 {
+	width: 41px;
+	height: 41px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Img5ForI6 {
+	width: 41px;
+	height: 41px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Img6ForI6 {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gridItem7 {
+	background-color: white;
+	grid-column: 2 / span 3;
+	grid-row: 25 / span 7;
+	margin-right: 20px;
+	box-shadow: 3px 3px 3px rgba(207, 206, 206, 0.827);
+}
+
+.Banner-content {
+	position: absolute;
+	top: 2rem;
+	left: 2.5rem;
+	color: white;
+	font-weight: 500;
+}
+
+.img1ForSlideI7 {
+	height: 15rem;
+	width: 100%;
+}
+
+.spanActiveOr {
+	color: gray;
+}

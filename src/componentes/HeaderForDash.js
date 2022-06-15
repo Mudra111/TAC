@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "./Images/logo.png";
 import Messages from "./Messages";
 
-export default function HeaderForDash() {
+export default function HeaderForDash(props) {
   const [msgBox, setMsgBox] = useState(false);
   return (
     <div className="headerForDash">
