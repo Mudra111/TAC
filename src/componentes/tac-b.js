@@ -1,21 +1,31 @@
 import React from "react";
-import './tac-b.css'
+import "./tac-b.css";
+import Reviewers from "./Reviewer-Slider";
 
 export default function Tacb() {
-    return (
-        <div>
-            <div className="tacb">
-                <h2 className="h2 text">TAC Business</h2>
-                <div className="text-section">
-                    <ul>
-                        <li className="text-lines text">Connect to best influencers , Youtuber’s, and creators with proven business experience.</li>
-                        <li className="text-lines text">Get matched with perfect talent by a customer success manager.</li>
-                        <li className="text-lines text">Manage team work and boost productivity with powerful workspace.</li>
-                    </ul>
-                </div>
-                <button className="btn text" type="button">Explore TAC Business</button>
-            </div>
-            <div className="tacbp">
+  return (
+    <div>
+      <div className="tacb">
+        <h2 className="h2 text">TAC Business</h2>
+        <div className="text-section">
+          <ul>
+            <li className="text-lines text">
+              Connect to best influencers , Youtuber’s, and creators with proven
+              business experience.
+            </li>
+            <li className="text-lines text">
+              Get matched with perfect talent by a customer success manager.
+            </li>
+            <li className="text-lines text">
+              Manage team work and boost productivity with powerful workspace.
+            </li>
+          </ul>
+        </div>
+        <button className="btn text" type="button">
+          Explore TAC Business
+        </button>
+      </div>
+      {/* <div className="tacbp">
                 <h2 className="h2 text">TAC budget planner</h2>
                 <div>
                     <ul>
@@ -23,7 +33,9 @@ export default function Tacb() {
                     </ul>
                 </div>
                 <button className="btn text" type="button">Try TAC Budget Planner</button>
-            </div>
-        </div>
-    )
+            </div> */}
+
+      <Reviewers />
+    </div>
+  );
 }

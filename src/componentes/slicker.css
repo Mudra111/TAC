@@ -1,41 +1,37 @@
-.sub-block{
-    height: 20rem;
-    width: 255px;
-    border-radius: 7px;
-    color: white;
-    padding: 1rem;
-    margin-left: 3.6rem !important;
-    margin-right: 0 !important;
+.sub-block {
+  height: 20rem;
+  width: 255px;
+  border-radius: 7px;
+  color: white;
+  padding: 1rem;
+  margin-left: 3.6rem !important;
+  margin-right: 0 !important;
 }
 
-.main-slider{
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+.main-slider {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
-.sb-1{
-    background-image: url('sb1.jpg');
-    background-position: center;
+.slickk-arrow {
+  color: black;
 }
 
-.slickk-arrow{
-    color: black;
+.slick-prev {
+  z-index: 100;
+  left: 20px !important;
 }
 
-.slick-prev{
-    z-index: 100;
-    left: 20px !important;
+.slick-next {
+  z-index: 100;
+  right: 20px !important;
 }
 
-.slick-next{
-    z-index: 100;
-    right: 20px !important;
-}
-
-.slick-prev:before, .slick-next:before {
-    /* font-family: 'slick'; */
-    font-size: 40px;
-    line-height: 1;
-    opacity: 1;
-    color: black;
+.slick-prev:before,
+.slick-next:before {
+  /* font-family: 'slick'; */
+  font-size: 40px;
+  line-height: 1;
+  opacity: 1;
+  color: black;
 }
