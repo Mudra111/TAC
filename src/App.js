@@ -4,6 +4,7 @@ import Footer from "./componentes/Footer";
 import Insta from "./componentes/Insta";
 import Dashboard from "./componentes/dashboard";
 import Order from "./componentes/Order";
+import GraphicsDesign from "./componentes/GraphicsDesign";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SocialMarketing from "./componentes/Social-Marketing";
 
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/dashboard" element={<Dashboard />} />
         <Route exact path="/order" element={<Order />} />
         <Route exact path="/socialmarketing" element={<SocialMarketing />} />
+        <Route exact path="/Graphics&Design" element={<GraphicsDesign />} />
       </Routes>
       <Footer />
     </Router>

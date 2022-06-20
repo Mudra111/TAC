@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.nav3 {
+	width: 100%;
+	padding-right: 117px;
+	padding-left: 117px;
+	padding-top: 30px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.nav-item3 a > b {
+	color: black;
+	vertical-align: middle;
+}
+
+.searchbtn {
+	color: white !important;
+}
+
+.right form input {
+	height: 45px;
+}
+
+.header3 {
+	margin-top: 0;
+	/* position: fixed; */
+	z-index: 150;
+	width: 100%;
+}
+
+.joinbtn {
+	border: 3px solid rgba(255, 255, 255, 0.721);
+	border-radius: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background: green;
+}
+.joinbtn:hover {
+	background-color: darkgreen;
+	color: white;
+}
+
+.drop {
+	width: 500px;
+}
+
+.dropdownli {
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown-a {
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown-p {
+	padding-left: 15px;
+}
+
+.tickmark {
+	height: 5px;
+	width: 5px;
+	color: black;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+.dropdown {
+	padding: 0;
+}
+
+.scroll {
+	height: 200px;
+	overflow-y: scroll;
+}
+
+.setlogo {
+	height: 38px;
+	width: 50px;
+}
+
+.right {
+	margin-right: auto;
+}
+
+body a.lh {
+	line-height: 0px;
+}
+
+
+
+
+a {
+    padding: 0.5rem 1rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nav4 {
+    margin-bottom: 0;
+    background-color: white;
+    display: block;
+    box-shadow: 3px 3px 3px rgb(160, 159, 159);
+  }
+  
+  a.header4 {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .hov-eff3 {
+    padding: 10px 0px;
+  }
+  
+  li.hov-eff3:hover {
+    border-bottom: 5px solid black;
+  }
+  
+  ul li ul.hoverdown {
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 160px;
+  }
+  
+  ul li:hover ul.hoverdown {
+    display: block;
+  }
+  
+  ul li ul.hoverdown li {
+    display: block;
+  }
+  
+  ul.hoverdown {
+    top: 142px;
+  }
+  
