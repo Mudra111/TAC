@@ -9,15 +9,16 @@ export default function Header2(props) {
 				<div className={props.navbar ? "nav2 nav2-show" : "nav2"}>
 					<ul className="nav justify-content-center">
 						<li className="nav-item hov-eff">
-							<a
-								className="active header2"
-								id="navbarDropdown"
-								data-bs-toggle="dropdown"
-								aria-current="page"
-								href="#"
-							>
-								Graphics & Design
-							</a>
+							<Link to="/Graphics&Design">
+								<a
+									id="navbarDropdown"
+									// data-bs-toggle="dropdown"
+									aria-current="page"
+									className="active header2"
+								>
+									Graphics & Design
+								</a>
+							</Link>
 							<ul
 								className="dropdown-menu hoverdown"
 								aria-labelledby="navbarDropdown"
@@ -39,6 +40,7 @@ export default function Header2(props) {
 								</li>
 							</ul>
 						</li>
+
 						<li className="nav-item hov-eff">
 							<a
 								className="active header2"

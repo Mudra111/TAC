@@ -480,8 +480,8 @@
 	font-weight: 500;
 }
 
-.img1ForSlideI7 {
-	height: 15rem;
+.carousel-item .img1ForSlideI7 {
+	height: 15rem !important;
 	width: 100%;
 }
 
