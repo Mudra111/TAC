@@ -1,0 +1,33 @@
+.SCM-heading {
+  font-size: 50px;
+}
+
+.SCM-subhead {
+  display: flex;
+}
+
+.SCM-subhead a {
+  padding-left: 5px;
+}
+
+.SCM-subhead p {
+  font-size: large;
+}
+
+.SCM-subhead svg {
+  margin-left: 10px;
+}
+
+.SCM-mainhead {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.sticky-SCMSubNav {
+  background: white;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
