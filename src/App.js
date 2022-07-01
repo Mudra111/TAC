@@ -5,6 +5,7 @@ import Insta from "./componentes/Insta";
 import Dashboard from "./componentes/dashboard";
 import Order from "./componentes/Order";
 import GraphicsDesign from "./componentes/GraphicsDesign";
+import DashboardMain from "./componentes/DashboardMain";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<Route exact path="/home" element={<Home user={true} />} />
 				<Route exact path="/insta" element={<Insta />} />
 				<Route exact path="/Graphics&Design" element={<GraphicsDesign />} />
+				<Route exact path="/DashBoardMain" element={<DashboardMain />} />
 				<Route exact path="/order" element={<Order />} />
 				<Route exact path="/dashboard" element={<Dashboard />} />
 			</Routes>
