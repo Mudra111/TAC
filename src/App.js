@@ -7,6 +7,7 @@ import Order from "./componentes/Order";
 import GraphicsDesign from "./componentes/GraphicsDesign";
 import DashboardMain from "./componentes/DashboardMain";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SocialMarketing from "./componentes/Social-Marketing";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Route exact path="/insta" element={<Insta />} />
 				<Route exact path="/Graphics&Design" element={<GraphicsDesign />} />
 				<Route exact path="/DashBoardMain" element={<DashboardMain />} />
+				<Route exact path="/socialmarketing" element={<SocialMarketing />} />
 				<Route exact path="/order" element={<Order />} />
 				<Route exact path="/dashboard" element={<Dashboard />} />
 			</Routes>
