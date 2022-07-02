@@ -6,6 +6,7 @@ import Dashboard from "./componentes/dashboard";
 import Order from "./componentes/Order";
 import GraphicsDesign from "./componentes/GraphicsDesign";
 import DashboardMain from "./componentes/DashboardMain";
+import TAC_WorkS_comp1 from "./componentes/TAC_WorkS_comp1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SocialMarketing from "./componentes/Social-Marketing";
 
@@ -19,6 +20,7 @@ function App() {
 				<Route exact path="/Graphics&Design" element={<GraphicsDesign />} />
 				<Route exact path="/DashBoardMain" element={<DashboardMain />} />
 				<Route exact path="/socialmarketing" element={<SocialMarketing />} />
+				<Route exact path="/tacworksc1" element={<TAC_WorkS_comp1 />} />
 				<Route exact path="/order" element={<Order />} />
 				<Route exact path="/dashboard" element={<Dashboard />} />
 			</Routes>

@@ -1,0 +1,117 @@
+.MainDivTWC1 {
+	padding: 0;
+	margin: 0;
+}
+
+.divforimgTWC1 img {
+	height: 650px;
+	width: 100%;
+}
+
+.divforimgTWC1 {
+	transform-style: preserve-3d;
+}
+
+.Div1inimgDc1 {
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	color: white;
+	font-size: 45px;
+	width: 700px;
+	font-weight: 700;
+	animation-name: div1imgdc1;
+	animation-duration: 4s;
+}
+
+.Div1inimgDc1 span {
+	font-weight: 500;
+}
+
+@keyframes div1imgdc1 {
+	0% {
+		top: 0px;
+		opacity: 0;
+	}
+	90% {
+		top: 170px;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.Div2inimgDc1 {
+	position: absolute;
+	top: 320px;
+	left: 100px;
+	color: rgba(255, 255, 255, 0.756);
+	font-size: 22px;
+	width: 450px;
+	animation-name: div2imgdc1;
+	animation-duration: 4s;
+}
+
+@keyframes div2imgdc1 {
+	0% {
+		left: 800px;
+		opacity: 0;
+	}
+	100% {
+		left: 100px;
+		opacity: 1;
+	}
+}
+
+.Div3inimgDc1 {
+	position: absolute;
+	top: 410px;
+	left: 100px;
+	color: white;
+	animation-name: div3imgdc1;
+	animation-duration: 4s;
+}
+
+.Div3inimgDc1 button {
+	padding: 10px 15px;
+	border-radius: 7px;
+	background-color: rgba(48, 62, 121, 0.886);
+	color: white;
+	border: none;
+}
+
+@keyframes div3imgdc1 {
+	0% {
+		opacity: 0;
+		top: 0;
+	}
+	90% {
+		top: 410px;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.Div4inimgDc1 {
+	position: absolute;
+	top: 470px;
+	left: 100px;
+	font-size: 17px;
+	border-radius: 5px;
+	padding: 5px;
+	color: rgba(255, 255, 255, 0.756);
+	animation-name: div4imgdc1;
+	animation-duration: 4s;
+}
+
+@keyframes div4imgdc1 {
+	0% {
+		left: 800px;
+		opacity: 0;
+	}
+	100% {
+		left: 100px;
+		opacity: 1;
+	}
+}
