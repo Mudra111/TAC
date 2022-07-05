@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ToggleSwitch from "./ToggleSwitch";
+import ToggleSwitchForSCM from "./ToggleSwitch";
 import "./SCM-SubNav.css";
 import {
   SCMBudgetComp,
@@ -107,15 +107,15 @@ function SCMSubNav() {
 
       <div className="SCM-SN-toggles">
         <div className="SCM-SN-Subtoggles">
-          <ToggleSwitch />
+          <ToggleSwitchForSCM />
           <b>Pro Services</b>
         </div>
         <div className="SCM-SN-Subtoggles">
-          <ToggleSwitch />
+          <ToggleSwitchForSCM />
           <b>Subscription Services</b>
         </div>
         <div className="SCM-SN-Subtoggles">
-          <ToggleSwitch />
+          <ToggleSwitchForSCM />
           <b>Online Sellers</b>
         </div>
       </div>

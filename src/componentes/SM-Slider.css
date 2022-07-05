@@ -10,19 +10,19 @@
   vertical-align: middle;
 }
 
-.slick-next {
+.SMC-MainDiv .slick-next {
   right: 55px !important;
 }
 
-.slick-prev {
+.SMC-MainDiv .slick-prev {
   left: 6px !important;
 }
-.slick-next::before,
-.slick-prev::before {
+.SMC-MainDiv .slick-next::before,
+.SMC-MainDiv .slick-prev::before {
   font-size: 65px !important;
 }
 
-.slick-slide {
+.SMC-MainDiv .slick-slide {
   width: 225px !important;
   margin-left: 50px;
 }

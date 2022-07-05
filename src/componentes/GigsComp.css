@@ -1,5 +1,5 @@
-/* Priority orders */
-.prior-main {
+/* Active Gigs */
+.gigs-active-main {
   width: 98%;
   border: 2px solid gray;
   margin-left: auto;
@@ -8,7 +8,7 @@
   background: white;
 }
 
-.prior-main::after {
+.gigs-active-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -17,13 +17,13 @@
   border-style: solid;
   border-width: 2px 0 0 2px;
   transform: rotate(45deg);
-  left: calc(50% - 640px);
-  bottom: 345px;
+  left: calc(50% - 645px);
+  bottom: 373px;
   background-color: white;
 }
 
-/* Active orders */
-.active-main {
+/* PA Gigs */
+.gigs-pa-main {
   width: 98%;
   border: 2px solid gray;
   margin-left: auto;
@@ -32,7 +32,7 @@
   background: white;
 }
 
-.active-main::after {
+.gigs-pa-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -41,13 +41,13 @@
   border-style: solid;
   border-width: 2px 0 0 2px;
   transform: rotate(45deg);
-  left: calc(50% - 560px);
-  bottom: 345px;
+  left: calc(50% - 530px);
+  bottom: 373px;
   background-color: white;
 }
 
-/* Late orders */
-.late-main {
+/* RM Gigs */
+.gigs-rm-main {
   width: 98%;
   border: 2px solid gray;
   margin-left: auto;
@@ -56,7 +56,7 @@
   background: white;
 }
 
-.late-main::after {
+.gigs-rm-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -65,13 +65,13 @@
   border-style: solid;
   border-width: 2px 0 0 2px;
   transform: rotate(45deg);
-  left: calc(50% - 495px);
-  bottom: 345px;
+  left: calc(50% - 340px);
+  bottom: 373px;
   background-color: white;
 }
 
-/* Delivered orders */
-.deliver-main {
+/* Draft Gigs */
+.gigs-draft-main {
   width: 98%;
   border: 2px solid gray;
   margin-left: auto;
@@ -80,7 +80,7 @@
   background: white;
 }
 
-.deliver-main::after {
+.gigs-draft-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -89,13 +89,13 @@
   border-style: solid;
   border-width: 2px 0 0 2px;
   transform: rotate(45deg);
-  left: calc(50% - 423px);
-  bottom: 345px;
+  left: calc(50% - 195px);
+  bottom: 373px;
   background-color: white;
 }
 
-/* Completed orders */
-.comp-main {
+/* Denied Gigs */
+.gigs-denied-main {
   width: 98%;
   border: 2px solid gray;
   margin-left: auto;
@@ -104,7 +104,7 @@
   background: white;
 }
 
-.comp-main::after {
+.gigs-denied-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -113,13 +113,13 @@
   border-style: solid;
   border-width: 2px 0 0 2px;
   transform: rotate(45deg);
-  left: calc(50% - 317px);
-  bottom: 345px;
+  left: calc(50% - 123px);
+  bottom: 373px;
   background-color: white;
 }
 
-/* Cancelled orders */
-.cancel-main {
+/* Paused Gigs */
+.gigs-paused-main {
   width: 98%;
   border: 2px solid gray;
   margin-left: auto;
@@ -128,7 +128,7 @@
   background: white;
 }
 
-.cancel-main::after {
+.gigs-paused-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -137,54 +137,65 @@
   border-style: solid;
   border-width: 2px 0 0 2px;
   transform: rotate(45deg);
-  left: calc(50% - 214px);
-  bottom: 345px;
-  background-color: white;
-}
-
-/* Starred orders */
-.star-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
-}
-
-.star-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 117px);
-  bottom: 345px;
+  left: calc(50% - 50px);
+  bottom: 373px;
   background-color: white;
 }
 
 /* commom in all */
-.prio-title {
-  margin: 20px;
+.gigs-active-title {
+  margin: 15px 20px;
 }
 
-.prio-cont {
+.gigs-active-cont {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   text-align: center;
-  margin: 15px 0px;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid lightgrey;
 }
 
-.deliver-cont {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
-  text-align: center;
-  margin: 15px 0px;
+.gigs-active-cont input {
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
 }
 
-.if-empty {
-  margin: 40px 20px 20px;
+.gigs-if-empty {
+  margin: 20px 20px 20px;
+}
+
+.gigs-active-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gigs-active-head select {
+  font-size: small;
+  margin: 10px;
+  padding: 5px 0px;
+  text-align: left;
+  font-weight: 500;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.gigs-active-head select optgroup {
+  border: 0px;
+}
+
+.gigs-active-head select optgroup option {
+  font-size: small;
+  text-align: left;
+  font-weight: 500;
+  color: gray;
+  margin-left: 10px;
+}
+
+.gigs-active-head select optgroup option:hover {
+  color: greenyellow;
+  background: transparent;
 }
