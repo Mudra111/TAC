@@ -1,0 +1,242 @@
+.MainDivTWC7 {
+	padding-top: 30px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: rgba(205, 205, 205, 0.389);
+}
+
+.frstDivTWC7 p {
+	background-image: linear-gradient(to right, rgb(211, 208, 208), white);
+	box-shadow: 2px 2px rgb(216, 215, 215);
+	width: 200px;
+	margin: 0 auto;
+    color: #a3036e;
+    text-align: center;
+}
+
+.scndDivTWC7 p {
+    margin-top: 10px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* quation component css */
+
+.DivForQuaTWC7{
+    margin-top: 25px;
+    margin-bottom: 60px;
+    transform-style: preserve-3d;
+}
+
+.que-itemTWC7 {
+	border-radius: 3px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(215, 214, 214, 0.949);
+	padding-bottom: 4px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lastQueTWC7{
+	border: none;
+}
+
+.que-link_TWC7 {
+	color: rgb(64, 64, 64);
+	font-weight: 500;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.que-link_TWC7:hover {
+	color: rgb(64, 64, 64);
+}
+
+.answTWC7 {
+	color: rgb(110, 109, 109);
+	font-size: 17px;
+	padding-bottom: 10px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1s;
+    animation-name: ansHidden ;
+    animation-duration: 1s;
+}
+
+@keyframes ansHidden{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.answTWC7 p {
+	margin: 10px 10px;
+	margin-bottom: 0;
+	border-radius: 5px;
+	padding: 0px 10px;
+    font-weight: 500;
+}
+
+.answTWC7 p ul{
+    padding-top: 10px;
+}
+
+.answTWC7 p ul li{
+    padding: 5px 0;
+}
+
+.answTWC7 p ul li span{
+    color: rgb(85, 84, 84);
+}
+
+.removeTWC7 {
+	display: none;
+}
+
+.Remove_showTWC7 {
+	display: block;
+}
+
+.Add_hideTWC7 {
+	display: none;
+}
+
+.ans1TWC7 {
+	max-height: 230px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans2TWC7 {
+	max-height: 70px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans3TWC7 {
+	max-height: 70px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans4TWC7 {
+	max-height: 70px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans5TWC7 {
+	max-height: 120px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans6TWC7 {
+	max-height: 95px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans7TWC7 {
+	max-height: 45px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+
+.ans8TWC7 {
+	max-height: 70px;
+	transition:1s ease-out;
+    animation-name: ansShow ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShow{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}

@@ -1,6 +1,10 @@
 import React from "react";
-import TACWsC1 from "./Images/TACWsC1.png";
+import TACWsC1 from "./Images/TACWs2C1.jpg";
 import "./TAC_WorkS_comp1.css";
+import TACWC3 from "./TAC_WorkS_comp3"
+import TACWC6 from "./TAC_WorkS_comp6"
+import TACWC7 from "./TAC_WorkS_comp7"
+import TACWC5 from "./TAC_WorkS_comp5"
 
 export default function TAC_WorkS_comp1() {
 	return (
@@ -26,6 +30,10 @@ export default function TAC_WorkS_comp1() {
 					</div>
 				</div>
 			</div>
+			<TACWC3/>
+			<TACWC6/>
+			<TACWC7/>
+			<TACWC5/>
 		</div>
 	);
 }
