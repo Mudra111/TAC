@@ -5,6 +5,8 @@ import Insta from "./componentes/Insta";
 import Dashboard from "./componentes/dashboard";
 import Order from "./componentes/Order";
 import GraphicsDesign from "./componentes/GraphicsDesign";
+import DashboardMain from "./componentes/DashboardMain";
+import TACWorkScomp1 from "./componentes/TAC_WorkS_comp1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SocialMarketing from "./componentes/Social-Marketing";
 import Gigs from "./componentes/Gigs";
@@ -23,6 +25,8 @@ function App() {
         <Route exact path="/socialmarketing" element={<SocialMarketing />} />
         <Route exact path="/Graphics&Design" element={<GraphicsDesign />} />
         <Route exact path="/TACworkspace" element={<TACWorkspace />} />
+        <Route exact path="/DashBoardMain" element={<DashboardMain />} />
+        <Route exact path="/tacworksc1" element={<TACWorkScomp1 />} />
       </Routes>
       <Footer />
     </Router>

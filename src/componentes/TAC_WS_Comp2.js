@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./TAC_WS_Comp2.css";
 
-function TAC_WS_Comp2() {
+function TAC_WS_Comp2(ref1) {
   const [slide1, setSlide1] = useState(true);
   const [slide2, setSlide2] = useState(false);
   const [slide3, setSlide3] = useState(false);
@@ -93,84 +93,90 @@ function TAC_WS_Comp2() {
   };
 
   return (
-    <div className="TWSmain-sld">
-      <div
-        className={displaysld1}
-
-        // id={`${slide1 && "dissld1"}`}
-      >
-        <div className="main-subSld1" onClick={disSld1}>
-          <div className="slider-subSld-text">
-            <h1>Seamless invoicing and payments</h1>
-            <p>
-              Customize and automate invoices and accept payments quickly and
-              securely, in any currency, via bank transfer, credit card, or
-              PayPal.
-            </p>
-            <a href="#">
-              Take a Closer Look <p>&rarr;</p>
-            </a>
-          </div>
-        </div>
+    <div ref={ref1.one}>
+      <div className="frstDivTWC3">
+        <p>SMART TOOLS FOR SMART BUSINESSES</p>
       </div>
 
-      <div className={displaysld2}>
-        <div className="main-subSld1" onClick={disSld2}>
-          <div className="slider-subSld-text">
-            <h1>Automated time & task management</h1>
-            <p>
-              Stay organized with time tracking tools that offer “set and
-              forget” ease-of-use and automated task prioritization.
-            </p>
-            <a href="#">
-              Take a Closer Look <p>&rarr;</p>
-            </a>
-          </div>
-        </div>
+      <div className="scndDivTWC3">
+        <p>Boost every part of your business - both on Fiverr and off</p>
       </div>
 
-      <div className={displaysld3}>
-        <div className="main-subSld1" onClick={disSld3}>
-          <div className="slider-subSld-text">
-            <h1>On-point proposals</h1>
-            <p>
-              Use smart proposals that also seamlessly generate contracts,
-              collect deposits, and so much more.
-            </p>
-            <a href="#">
-              Take a Closer Look <p>&rarr;</p>
-            </a>
+      <div className="TWSmain-sld">
+        <div className={displaysld1}>
+          <div className="main-subSld1" onClick={disSld1}>
+            <div className="slider-subSld-text">
+              <h1>Seamless invoicing and payments</h1>
+              <p>
+                Customize and automate invoices and accept payments quickly and
+                securely, in any currency, via bank transfer, credit card, or
+                PayPal.
+              </p>
+              <a href="#">
+                Take a Closer Look <p>&rarr;</p>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className={displaysld4}>
-        <div className="main-subSld1" onClick={disSld4}>
-          <div className="slider-subSld-text">
-            <h1>Contracts ready to sign</h1>
-            <p>
-              Easily edit and share pre-populated contracts that build secure,
-              fair relationships between you and your clients.
-            </p>
-            <a href="#">
-              Take a Closer Look <p>&rarr;</p>
-            </a>
+        <div className={displaysld2}>
+          <div className="main-subSld1" onClick={disSld2}>
+            <div className="slider-subSld-text">
+              <h1>Automated time & task management</h1>
+              <p>
+                Stay organized with time tracking tools that offer “set and
+                forget” ease-of-use and automated task prioritization.
+              </p>
+              <a href="#">
+                Take a Closer Look <p>&rarr;</p>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className={displaysld5}>
-        <div className="main-subSld1" onClick={disSld5}>
-          <div className="slider-subSld-text">
-            <h1>TAC income sync</h1>
-            <p>
-              Automatically sync your Fiverr earnings with your Workspace
-              account for a single, comprehensive view of your business
-              performance.
-            </p>
-            <a href="#">
-              Take a Closer Look <p>&rarr;</p>
-            </a>
+        <div className={displaysld3}>
+          <div className="main-subSld1" onClick={disSld3}>
+            <div className="slider-subSld-text">
+              <h1>On-point proposals</h1>
+              <p>
+                Use smart proposals that also seamlessly generate contracts,
+                collect deposits, and so much more.
+              </p>
+              <a href="#">
+                Take a Closer Look <p>&rarr;</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className={displaysld4}>
+          <div className="main-subSld1" onClick={disSld4}>
+            <div className="slider-subSld-text">
+              <h1>Contracts ready to sign</h1>
+              <p>
+                Easily edit and share pre-populated contracts that build secure,
+                fair relationships between you and your clients.
+              </p>
+              <a href="#">
+                Take a Closer Look <p>&rarr;</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className={displaysld5}>
+          <div className="main-subSld1" onClick={disSld5}>
+            <div className="slider-subSld-text">
+              <h1>TAC income sync</h1>
+              <p>
+                Automatically sync your Fiverr earnings with your Workspace
+                account for a single, comprehensive view of your business
+                performance.
+              </p>
+              <a href="#">
+                Take a Closer Look <p>&rarr;</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>

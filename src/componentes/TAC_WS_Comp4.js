@@ -6,15 +6,17 @@ function TAC_WS_Comp4() {
 
   return (
     <div>
-      <div>
+      <div className="frstDivTWC3">
         <p>PRICING</p>
       </div>
-      <div>
+      <div className="scndDivTWC3">
         <p>Level Up</p>
       </div>
-      <div>
-        Whether you’re just starting out or you’re running a major operation,
-        Fiverr Workspace has a plan for you.
+      <div className="thrdDivTWC3">
+        <p>
+          Whether you’re just starting out or you’re running a major operation,
+          Fiverr Workspace has a plan for you.
+        </p>
       </div>
 
       <div className="mainDivforPrice">
