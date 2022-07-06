@@ -7,7 +7,7 @@ import TACWorkScomp6 from "./TAC_WorkS_comp6";
 import TACWorkScomp7 from "./TAC_WorkS_comp7";
 import TACWSComp2 from "./TAC_WS_Comp2";
 import TACWSComp4 from "./TAC_WS_Comp4";
-import "./Tac_WorkS_SubNav.css";
+import "./TAC_WorkS_SubNav.css";
 
 export default function TACWorkspace() {
   const one = useRef(null);
@@ -35,7 +35,7 @@ export default function TACWorkspace() {
     <div>
       <TACworkspaceNav />
       <TACWorkScomp1 />
-      <>
+      <div>
         <div className="WS-MainSubNav">
           <div>
             <button onClick={scroll1}>One</button>
@@ -56,7 +56,7 @@ export default function TACWorkspace() {
             <button onClick={scroll6}>Six</button>
           </div>
         </div>
-      </>
+      </div>
       <TACWSComp2 forwardedRef={one} />
       <TACWorkScomp3 forwardedRef={two} />
       <TACWSComp4 forwardedRef={three} />
