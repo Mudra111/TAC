@@ -4,9 +4,9 @@ import Img1 from "./Images/Img1TWC3.png";
 import Img2 from "./Images/Img2TWC3.png";
 import Img3 from "./Images/Img3TWC3.png";
 
-export default function TAC_WorkS_comp3() {
+export default function TAC_WorkS_comp3({ forwardedRef }) {
   return (
-    <div>
+    <div ref={forwardedRef}>
       <div className="mainDivTWC3">
         <div className="frstDivTWC3">
           <p>POWERED BY TAC</p>

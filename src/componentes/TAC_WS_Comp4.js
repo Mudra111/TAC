@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./TAC_WS_Comp4.css";
 
-function TAC_WS_Comp4() {
+function TAC_WS_Comp4({ forwardedRef }) {
   const [disAmt, setDisAmt] = useState(false);
 
   return (
-    <div>
+    <div ref={forwardedRef}>
       <div className="frstDivTWC3">
         <p>PRICING</p>
       </div>

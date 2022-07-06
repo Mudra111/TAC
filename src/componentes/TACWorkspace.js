@@ -7,43 +7,62 @@ import TACWorkScomp6 from "./TAC_WorkS_comp6";
 import TACWorkScomp7 from "./TAC_WorkS_comp7";
 import TACWSComp2 from "./TAC_WS_Comp2";
 import TACWSComp4 from "./TAC_WS_Comp4";
+import "./Tac_WorkS_SubNav.css";
 
-const scroll = (elementRef) => {
-  window.scrollTo(0, elementRef.current.offsetTop);
-};
 export default function TACWorkspace() {
   const one = useRef(null);
   const two = useRef(null);
   const three = useRef(null);
+  const four = useRef(null);
+  const five = useRef(null);
+  const six = useRef(null);
 
-  const scrollOne = () => scroll(one);
+  const scroll = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
+  const scroll1 = () => scroll(one);
   const scroll2 = () => scroll(two);
   const scroll3 = () => scroll(three);
+  const scroll4 = () => scroll(four);
+  const scroll5 = () => scroll(five);
+  const scroll6 = () => scroll(six);
 
   return (
     <div>
       <TACworkspaceNav />
       <TACWorkScomp1 />
       <>
-        <div>
+        <div className="WS-MainSubNav">
           <div>
-            <button onClick={scrollOne}>1</button>
+            <button onClick={scroll1}>One</button>
           </div>
           <div>
-            <button onClick={scroll2}>2</button>
+            <button onClick={scroll2}>Two</button>
           </div>
           <div>
-            <button onClick={scroll3}>3</button>
+            <button onClick={scroll3}>Three</button>
+          </div>
+          <div>
+            <button onClick={scroll4}>Four</button>
+          </div>
+          <div>
+            <button onClick={scroll5}>Five</button>
+          </div>
+          <div>
+            <button onClick={scroll6}>Six</button>
           </div>
         </div>
-
-        <TACWSComp2 ref1={one} />
-        <TACWorkScomp3 ref2={two} />
-        <TACWSComp4 ref3={three} />
-        <TACWorkScomp5 />
-        <TACWorkScomp6 />
-        <TACWorkScomp7 />
       </>
+      <TACWSComp2 forwardedRef={one} />
+      <TACWorkScomp3 forwardedRef={two} />
+      <TACWSComp4 forwardedRef={three} />
+      <TACWorkScomp5 forwardedRef={four} />
+      <TACWorkScomp6 forwardedRef={five} />
+      <TACWorkScomp7 forwardedRef={six} />
     </div>
   );
 }

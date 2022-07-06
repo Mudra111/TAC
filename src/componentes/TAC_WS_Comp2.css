@@ -3,8 +3,8 @@ div.TWSmain-sld {
   height: 70vh;
   perspective: 1000vw;
   transform-style: preserve-3d;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-top: 50px;
   margin-left: 300px;
   margin-right: 300px;
 }
@@ -16,6 +16,7 @@ div.TWSmain-sld {
   position: absolute;
   transition: transform 0.4s ease;
   border-radius: 40px;
+  /* border: 4px solid #cc008868; */
 }
 
 .sld1 {
@@ -23,7 +24,7 @@ div.TWSmain-sld {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 2px 2px 50px 10px#cc008868;
+  box-shadow: 2px 2px 50px 10px gray;
 }
 
 .sld2 {
@@ -56,17 +57,19 @@ div.TWSmain-sld {
 }
 
 .main-subSld1 {
-  background: rgba(0, 0, 0, 0.45);
-  height: 100%;
-  border-radius: 40px;
+  background: rgba(63, 63, 63, 0.658);
+  height: 81.5%;
+  border-radius: 30px;
+  margin: 50px 80px;
+  border: 2px solid black;
 }
 
 .slider-subSld-text {
   color: white;
-  padding-top: 150px;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 
 .slider-subSld-text a {
