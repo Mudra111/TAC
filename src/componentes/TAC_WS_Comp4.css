@@ -44,6 +44,10 @@
   font-weight: 500;
 }
 
+.free {
+  padding: 0px 20px;
+}
+
 .ticks p {
   font-weight: bold;
   /* font-size: 18px; */
@@ -65,7 +69,7 @@
 
 .divForServices {
   width: 100%;
-  height: 45vh;
+  height: 35vh;
 }
 
 .amtMainTWS {

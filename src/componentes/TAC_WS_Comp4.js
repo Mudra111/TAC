@@ -21,11 +21,11 @@ function TAC_WS_Comp4({ forwardedRef }) {
 
       <div className="mainDivforPrice">
         <div className="divForFree">
+          <div className="levelUpTitles free">
+            <p>Services Provided For Free</p>
+          </div>
           <div className="divForFree_Unlimit">
             <div className="divForServices">
-              <div className="levelUpTitles">
-                <p>Services</p>
-              </div>
               <div className="servicesName">
                 <p>Streamlined Business Tools</p>
 
@@ -38,9 +38,6 @@ function TAC_WS_Comp4({ forwardedRef }) {
             </div>
 
             <div className="divForTicks">
-              <div className="levelUpTitles">
-                <p>Free</p>
-              </div>
               <div className="ticks">
                 <p>&#10004;</p>
 
@@ -69,12 +66,12 @@ function TAC_WS_Comp4({ forwardedRef }) {
         </div>
 
         <div className="divForUnlimited">
+          <div className="levelUpTitles">
+            <p>Services For Paid Package</p>
+          </div>
           <div className="divForUnlimited1 ">
             <div className="divForFree_Unlimit ">
               <div className="divForServices ">
-                <div className="levelUpTitles">
-                  <p>Services</p>
-                </div>
                 <div className="servicesName">
                   <p>Streamlined Business Tools</p>
 
@@ -88,9 +85,6 @@ function TAC_WS_Comp4({ forwardedRef }) {
               </div>
 
               <div className="divForTicks">
-                <div className="levelUpTitles">
-                  <p>Unlimited</p>
-                </div>
                 <div className="ticks">
                   <p>&#10004;</p>
 
@@ -107,9 +101,6 @@ function TAC_WS_Comp4({ forwardedRef }) {
 
             <div className="divForFree_Unlimit">
               <div className="divForServices Unlimited1">
-                <div className="levelUpTitles">
-                  <p>Services</p>
-                </div>
                 <div className="servicesName">
                   <p>Unlimited Client Management</p>
 
@@ -122,9 +113,6 @@ function TAC_WS_Comp4({ forwardedRef }) {
               </div>
 
               <div className="divForTicks">
-                <div className="levelUpTitles">
-                  <p>Unlimited</p>
-                </div>
                 <div className="ticks">
                   <p>&#10004;</p>
 

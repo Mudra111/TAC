@@ -37,31 +37,31 @@ export default function TACWorkspace() {
       <TACWorkScomp1 />
       <div>
         <div className="WS-MainSubNav">
-          <div>
-            <button onClick={scroll1}>One</button>
+          <div className="TAC_WS_scrollBtn">
+            <button onClick={scroll1}>SMART TOOLS FOR SMART BUSINESSES</button>
           </div>
-          <div>
-            <button onClick={scroll2}>Two</button>
+          <div className="TAC_WS_scrollBtn">
+            <button onClick={scroll2}>POWERED BY TAC</button>
           </div>
-          <div>
-            <button onClick={scroll3}>Three</button>
+          <div className="TAC_WS_scrollBtn">
+            <button onClick={scroll3}>PRICING</button>
           </div>
-          <div>
-            <button onClick={scroll4}>Four</button>
+          <div className="TAC_WS_scrollBtn">
+            <button onClick={scroll4}>THE TAC WORKSPACE ADVANTAGE</button>
           </div>
-          <div>
-            <button onClick={scroll5}>Five</button>
+          <div className="TAC_WS_scrollBtn">
+            <button onClick={scroll5}>KHALI AMNAM</button>
           </div>
-          <div>
-            <button onClick={scroll6}>Six</button>
+          <div className="TAC_WS_scrollBtn">
+            <button onClick={scroll6}>TAC WORKSPACE FAQs</button>
           </div>
         </div>
       </div>
       <TACWSComp2 forwardedRef={one} />
       <TACWorkScomp3 forwardedRef={two} />
       <TACWSComp4 forwardedRef={three} />
-      <TACWorkScomp5 forwardedRef={four} />
-      <TACWorkScomp6 forwardedRef={five} />
+      <TACWorkScomp6 forwardedRef={four} />
+      <TACWorkScomp5 forwardedRef={five} />
       <TACWorkScomp7 forwardedRef={six} />
     </div>
   );
