@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import logo from "./Images/logo.png";
 import "./DashboardMain.css";
-import EarningDash from "./EarningDash"
+import EarningDash from "./EarningDash";
+import Buyreq from "./BuyerReq";
 
 export default function DashboardMain() {
 	const [Dashboard, setDashboard] = useState(true);
@@ -12,6 +13,15 @@ export default function DashboardMain() {
 	const [Earnings, setEarnings] = useState(false);
 	const [Community, setCommunity] = useState(false);
 	const [More, setMore] = useState(false);
+	const [BuyerReq, setBuyerReq] = useState(false);
+
+	const ShowDropMore = () => {
+		if (More) {
+			setMore(false);
+		} else {
+			setMore(true);
+		}
+	};
 
 	return (
 		<div>
@@ -55,6 +65,7 @@ export default function DashboardMain() {
 									setEarnings(false);
 									setCommunity(false);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Dashboard
@@ -69,6 +80,7 @@ export default function DashboardMain() {
 									setEarnings(false);
 									setCommunity(false);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Messages
@@ -83,6 +95,7 @@ export default function DashboardMain() {
 									setEarnings(false);
 									setCommunity(false);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Orders
@@ -97,6 +110,7 @@ export default function DashboardMain() {
 									setEarnings(false);
 									setCommunity(false);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Gigs
@@ -111,6 +125,7 @@ export default function DashboardMain() {
 									setEarnings(false);
 									setCommunity(false);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Analytics
@@ -125,6 +140,7 @@ export default function DashboardMain() {
 									setEarnings(true);
 									setCommunity(false);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Earnings
@@ -139,6 +155,7 @@ export default function DashboardMain() {
 									setEarnings(false);
 									setCommunity(true);
 									setMore(false);
+									setBuyerReq(false);
 								}}
 							>
 								Community
@@ -152,16 +169,38 @@ export default function DashboardMain() {
 									setAnalytics(false);
 									setEarnings(false);
 									setCommunity(false);
-									setMore(true);
+									ShowDropMore();
 								}}
 							>
 								More
 							</li>
+							<ul className={` ${More ? "MoreDropDownShow" : "MoreDropDown"}`}>
+								<li
+									onClick={() => {
+										setDashboard(false);
+										setMessages(false);
+										setOrders(false);
+										setGigs(false);
+										setAnalytics(false);
+										setEarnings(false);
+										setCommunity(false);
+										setMore(false);
+										setBuyerReq(true);
+									}}
+								>
+									Buyer Request
+								</li>
+								<li>TAC Workspace</li>
+								<li>Scale Your Business</li>
+								<li>Learn - Online Courses</li>
+								<li>Contacts</li>
+							</ul>
 						</ul>
 					</div>
 
 					<div>
-					{Earnings && <EarningDash/>}
+						{Earnings && <EarningDash />}
+						{BuyerReq && <Buyreq />}
 					</div>
 				</div>
 			</div>

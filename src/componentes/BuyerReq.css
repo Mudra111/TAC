@@ -1,0 +1,58 @@
+.MainDivBuyReq {
+	background-color: rgba(237, 234, 234, 0.674);
+	height: 900px;
+	width: 100%;
+}
+
+.FrstDBR {
+	padding: 0px;
+	margin: 0px;
+}
+
+.FrstDBR p {
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: white;
+	text-shadow: 3px 3px 3px rgb(61, 61, 61);
+	background-color: gainsboro;
+}
+
+.ScndDBR {
+	background-color: white;
+	padding: 0px 0px;
+	padding-left: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.FstInnScnDBR{
+	display: flex;
+}
+
+.FstinnSDBR1, .FstinnSDBR2{
+padding: 15px 20px;
+}
+
+.FstinnSDBR1Act, .FstinnSDBR2Act{
+	padding: 15px 20px;
+	background-color: rgba(237, 234, 234, 0.674);
+}
+	
+
+.FstinnSDBR1:hover, .FstinnSDBR2:hover{
+	box-shadow: 1px 1px 13px rgba(128, 128, 128, 0.801);
+}
+
+.ScndInnScnDBR{
+	padding-left: 20px;
+}
+
+.ScndInnScnDBR::before{
+	background-image: url(./Images/BRicon.com.png);
+	height: 10px;
+	width: 10px;
+	position: absolute;
+}
