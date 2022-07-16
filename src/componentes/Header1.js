@@ -233,6 +233,11 @@ export default function Header1(props) {
                       Dashboard
                     </a>
                   </Link>
+                  <Link to="/DashBoardMain">
+                    <a className="dropdown-item" href="#">
+                      DashboardMain
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </li>
