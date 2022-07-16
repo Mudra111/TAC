@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./BuyerReq.css";
 import ActiveOff from "./BuyerReq_comp1"
+import SentOff from "./BuyerReq_comp2"
 
 export default function BuyerReq() {
 	const [activeoff, setActiveoff] = useState(true);
@@ -43,6 +44,7 @@ export default function BuyerReq() {
 
 				<div className="ThrdDBR">
 				{ activeoff && <ActiveOff /> }
+				{ sentoff && <SentOff /> }
 				</div>
 			</div>
 		</div>
