@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./BuyerReq.css";
+import ActiveOff from "./BuyerReq_comp1"
 
 export default function BuyerReq() {
 	const [activeoff, setActiveoff] = useState(true);
@@ -36,8 +37,12 @@ export default function BuyerReq() {
 					</div>
 
 					<div className="ScndInnScnDBR">
-          <small>0 offers left today</small>
-          </div>
+						<p>0 offers left today</p>
+					</div>
+				</div>
+
+				<div className="ThrdDBR">
+				{ activeoff && <ActiveOff /> }
 				</div>
 			</div>
 		</div>
