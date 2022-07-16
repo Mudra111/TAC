@@ -7,7 +7,24 @@
   z-index: 1;
   position: sticky;
   top: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-bottom: 20px;
+  background-color: lightgrey;
+}
+.TAC_WS_scrollBtn button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.836);
+  font-weight: 600;
+  color: white;
+  border: 1px solid lightgrey;
+}
+.TAC_WS_scrollBtn button:hover {
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: white;
+  font-weight: 600;
+  color: black;
+  border: 2px solid black;
 }
