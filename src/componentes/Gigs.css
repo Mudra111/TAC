@@ -1,99 +1,73 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.gigs-body {
-  background-color: #f5f5f4;
-  padding-bottom: 20px;
-  height: 200vh;
+.MainDivGigs {
+	background-color: rgba(237, 234, 234, 0.674);
+	height: 900px;
+	width: 100%;
 }
 
-.gigs-display {
-  display: flex;
-  justify-content: space-between;
+.FrstDGig {
+	padding: 0px;
+	margin: 0px;
 }
 
-.gigs-title {
-  font-size: 45px;
-  margin: 20px 50px;
-  font-weight: lighter;
+.FrstDGig p {
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: white;
+	text-shadow: 3px 3px 3px rgb(61, 61, 61);
+	background-color: gainsboro;
 }
 
-.gigs-subnav {
-  display: flex;
-  justify-content: space-between;
+.ScndDGig {
+	background-color: white;
+	padding: 0px 0px;
+	padding-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 15px;
 }
 
-.gigs-subnav .create-gig-btn {
-  margin-right: 30px;
+.FstInnScnDGig {
+	display: flex;
 }
 
-.gigs-subnav .create-gig-btn button {
-  background: #1dbf73;
-  color: white;
-  font-weight: 500;
-  font-size: 15px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-}
-.gigs-subnav .create-gig-btn button:hover {
-  box-shadow: 1px 1px 5px black;
+.FstinnSDGig1,
+.FstinnSDGig2,
+.FstinnSDGig3,
+.FstinnSDGig4,
+.FstinnSDGig5,
+.FstinnSDGig6 {
+	padding: 15px 20px;
 }
 
-.gigs-subnav-list {
-  display: flex;
-  list-style: none;
+.FstinnSDGig1Act,
+.FstinnSDGig2Act,
+.FstinnSDGig3Act,
+.FstinnSDGig4Act,
+.FstinnSDGig5Act,
+.FstinnSDGig6Act {
+	padding: 15px 20px;
+	background-color: rgba(237, 234, 234, 0.674);
 }
 
-ul.gigs-subnav-list li {
-  margin-left: 10px;
-  margin-right: 10px;
+.FstinnSDGig1:hover,
+.FstinnSDGig2:hover,
+.FstinnSDGig3:hover,
+.FstinnSDGig4:hover,
+.FstinnSDGig5:hover,
+.FstinnSDGig6:hover {
+	box-shadow: 1px 1px 15px rgba(144, 144, 144, 0.801);
 }
 
-ul.gigs-subnav-list li button {
-  border: none;
-  background: transparent;
-  text-align: center;
+.ScndInnScnDGig button{
+    padding: 10px 15px;
+    background-color: #cc0088;
+    border: 1.5px solid #6d0149;
 }
 
-.Gigs-Toggles {
-  display: flex;
-  margin: 20px 20px;
-}
-
-.Gigs-SubToggle1 {
-  display: flex;
-  margin: 20px 10px;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-div.Gigs-SubToggle1 > p:first-of-type {
-  /* padding-top: 5px; */
-  margin-right: 3px;
-}
-
-.Gigs-SubToggle1 p {
-  padding-top: 5px;
-}
-
-.Gigs-SubToggle1 span {
-  padding-top: 5px;
-  text-decoration: underline;
-}
-
-.gig-link {
-  margin: 10px 0;
-  text-align: right;
-  font-size: 18px;
-}
-
-.gig-link a:hover {
-  text-decoration: underline;
-}
-
-.gig-link a {
-  color: #1dbf73;
+.ScndInnScnDGig button:hover{
+    background-color: white;
+    color: #cc0088;
 }
