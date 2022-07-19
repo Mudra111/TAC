@@ -1,175 +1,71 @@
-/* Active Gigs */
 .gigs-active-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
+  border: 1px solid gray;
+  height: auto;
+  width: 95%;
+  margin: 40px 20px auto;
+  animation-name: GigComp;
+  animation-duration: 2s;
 }
 
-.gigs-active-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 645px);
-  bottom: 373px;
-  background-color: white;
+@keyframes GigComp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-/* PA Gigs */
-.gigs-pa-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
-}
-
-.gigs-pa-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 530px);
-  bottom: 373px;
-  background-color: white;
-}
-
-/* RM Gigs */
-.gigs-rm-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
-}
-
-.gigs-rm-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 340px);
-  bottom: 373px;
-  background-color: white;
-}
-
-/* Draft Gigs */
-.gigs-draft-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
-}
-
-.gigs-draft-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 195px);
-  bottom: 373px;
-  background-color: white;
-}
-
-/* Denied Gigs */
-.gigs-denied-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
-}
-
-.gigs-denied-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 123px);
-  bottom: 373px;
-  background-color: white;
-}
-
-/* Paused Gigs */
-.gigs-paused-main {
-  width: 98%;
-  border: 2px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  background: white;
-}
-
-.gigs-paused-main::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-color: gray;
-  border-style: solid;
-  border-width: 2px 0 0 2px;
-  transform: rotate(45deg);
-  left: calc(50% - 50px);
-  bottom: 373px;
-  background-color: white;
-}
-
-/* commom in all */
-.gigs-active-title {
-  margin: 15px 20px;
-}
-
-.gigs-active-cont {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  text-align: center;
-  padding: 5px 5px;
-  font-size: 15px;
+.gig-meaning {
+  padding: 10px 0px 0px 10px;
+  color: gray;
   font-weight: 500;
-  border-bottom: 1px solid lightgrey;
-}
-
-.gigs-active-cont input {
-  height: 18px;
-  width: 18px;
-  vertical-align: middle;
-}
-
-.gigs-if-empty {
-  margin: 20px 20px 20px;
 }
 
 .gigs-active-head {
   display: flex;
   justify-content: space-between;
+  margin: 10px 0;
+}
+
+.gigs-active-title {
+  padding: 5px 10px;
+}
+
+.gigs-active-dd {
+  padding: 0 10px;
+}
+
+.gigs-active-dd select {
+  padding: 7px 5px;
+}
+
+.gigs-active-cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid rgb(206, 206, 206);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding: 5px 0px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.gigs-active-cont div {
+  text-align: center;
+}
+
+.gigs-if-empty {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 0px 10px 15px;
+  color: rgb(143, 143, 143);
+  font-weight: 600;
+}
+
+.gigs-active-cont input.checkbox {
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
 }
 
 .gigs-active-head select {
@@ -193,9 +89,4 @@
   font-weight: 500;
   color: gray;
   margin-left: 10px;
-}
-
-.gigs-active-head select optgroup option:hover {
-  color: greenyellow;
-  background: transparent;
 }

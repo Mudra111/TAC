@@ -58,7 +58,7 @@ ul.gigs-subnav-list li button {
   text-align: center;
 }
 
-.Gigs-Toggles {
+/* .Gigs-Toggles {
   display: flex;
   margin: 20px 20px;
 }
@@ -71,7 +71,7 @@ ul.gigs-subnav-list li button {
 }
 
 div.Gigs-SubToggle1 > p:first-of-type {
-  /* padding-top: 5px; */
+  padding-top: 5px;
   margin-right: 3px;
 }
 
@@ -82,7 +82,7 @@ div.Gigs-SubToggle1 > p:first-of-type {
 .Gigs-SubToggle1 span {
   padding-top: 5px;
   text-decoration: underline;
-}
+} */
 
 .gig-link {
   margin: 10px 0;

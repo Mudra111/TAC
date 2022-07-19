@@ -1,36 +1,63 @@
 .MainDivGigs {
-	background-color: rgba(237, 234, 234, 0.674);
-	height: 900px;
-	width: 100%;
+  background-color: rgba(237, 234, 234, 0.674);
+  height: 900px;
+  width: 100%;
 }
 
 .FrstDGig {
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
-.FrstDGig p {
-	font-size: 50px;
-	font-weight: 400;
-	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 20px;
-	color: white;
-	text-shadow: 3px 3px 3px rgb(61, 61, 61);
-	background-color: gainsboro;
+.FrstDGig p:first-child {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 3px 3px 3px rgb(61, 61, 61);
+  background-color: gainsboro;
+}
+
+.Gigs-Toggles {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.Gigs-SubToggle1 {
+  display: flex;
+  margin: 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+div.Gigs-SubToggle1 > p:first-of-type {
+  /* padding-top: 5px; */
+  margin-right: 3px;
+}
+
+.Gigs-SubToggle1 p {
+  padding-top: 5px;
+}
+
+.Gigs-SubToggle1 span {
+  padding-top: 5px;
+  text-decoration: underline;
 }
 
 .ScndDGig {
-	background-color: white;
-	padding: 0px 0px;
-	padding-left: 10px;
-	display: flex;
-	justify-content: space-between;
-	padding-right: 15px;
+  background-color: white;
+  padding: 0px 0px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
 }
 
 .FstInnScnDGig {
-	display: flex;
+  display: flex;
 }
 
 .FstinnSDGig1,
@@ -39,7 +66,7 @@
 .FstinnSDGig4,
 .FstinnSDGig5,
 .FstinnSDGig6 {
-	padding: 15px 20px;
+  padding: 15px 20px;
 }
 
 .FstinnSDGig1Act,
@@ -48,8 +75,8 @@
 .FstinnSDGig4Act,
 .FstinnSDGig5Act,
 .FstinnSDGig6Act {
-	padding: 15px 20px;
-	background-color: rgba(237, 234, 234, 0.674);
+  padding: 15px 20px;
+  background-color: rgba(237, 234, 234, 0.674);
 }
 
 .FstinnSDGig1:hover,
@@ -58,16 +85,27 @@
 .FstinnSDGig4:hover,
 .FstinnSDGig5:hover,
 .FstinnSDGig6:hover {
-	box-shadow: 1px 1px 15px rgba(144, 144, 144, 0.801);
+  box-shadow: 1px 1px 15px rgba(144, 144, 144, 0.801);
+  cursor: pointer;
 }
 
-.ScndInnScnDGig button{
-    padding: 10px 15px;
-    background-color: #cc0088;
-    border: 1.5px solid #6d0149;
+.create-gig-btn {
+  margin-right: 10px;
+  padding: 10px 0px;
 }
 
-.ScndInnScnDGig button:hover{
-    background-color: white;
-    color: #cc0088;
+.create-gig-btn button {
+  background-color: #cc0088;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.create-gig-btn button:hover {
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  color: #cc0088;
 }
