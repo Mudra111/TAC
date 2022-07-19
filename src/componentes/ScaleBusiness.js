@@ -1,52 +1,65 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Profile from "./Images/img1.webp";
+import "./ScaleBusiness.css";
 
 function ScaleBusiness() {
+  // const initBadgeCat = () => {
+  //   const initval = initvalRef;
+  //   return initval;
+  // };
+  const initvalRef = useRef(null);
+
+  const [BadgeCat, setBadgeCat] = useState(initvalRef.value);
+
+  const selBudgeCat = (e) => {
+    setBadgeCat(e.target.value);
+  };
+
   return (
     <div>
-      <div>
-        <h1>ScaleBusiness</h1>
+      <div className="FrstDBR">
+        <p>ScaleBusiness</p>
       </div>
 
-      <div>
-        <div>
-          <div>
+      <div className="CBMainDiv">
+        <div className="ProfileMainDiv">
+          <div className="ProfileImg">
             <img src={Profile} alt="" />
           </div>
-          <div>
-            <div>
-              <h4>Seller</h4>
-              <h5>Business</h5>
+          <div className="ProfileSubDiv1">
+            <div className="ProfileDet">
+              <p>Seller</p>
+              <p>{BadgeCat}</p>
             </div>
-            <div>
+            <div className="ProfileBtn">
               <button>Check out my Gigs</button>
             </div>
           </div>
-          <div>
-            <h3>TAC</h3>
-          </div>
         </div>
 
-        <div>
-          <div>
-            <div>
-              <h4>CREATE YOUR BADGE</h4>
+        <div className="CBSubDiv1">
+          <div className="CBMainTitleDiv">
+            <div className="MainTitlediv1">
+              <p>CREATE YOUR BADGE</p>
             </div>
-            <div>
+            <div className="MainTitlediv2">
               <p>
                 Boost the traffic to your Gigs by embedding this seller badge on
                 your website or blog.
               </p>
             </div>
           </div>
+          <hr />
 
-          <div>
+          <div className="CBBadgeCatMain">
             <div>
-              <h5>SELECT THE BADGE CATEGORY</h5>
+              <p>SELECT THE BADGE CATEGORY</p>
             </div>
             <div>
-              <select name="badge category" id="">
-                <option value="business">BUSINESS</option>
+              <select name="badge category" id="" onChange={selBudgeCat}>
+                <option value="business" ref={initvalRef}>
+                  BUSINESS
+                </option>
                 <option value="digital marketing">DIGITAL MARKETING</option>
                 <option value="writing and translation">
                   WRITING AND TRANSLATION
@@ -55,14 +68,14 @@ function ScaleBusiness() {
             </div>
           </div>
 
-          <div>
+          <div className="CBBadgeCatMain">
             <div>
-              <h5>COPY TO CLIPBOARD</h5>
+              <p>COPY TO CLIPBOARD</p>
             </div>
             <div>
               <textarea
                 name="copy"
-                cols={40}
+                cols={50}
                 rows={10}
                 id=""
                 value={`<!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
@@ -85,29 +98,37 @@ I am proffesional Content Writer, Trancriptionist. I Have also many other skills
               ></textarea>
             </div>
           </div>
+          <hr />
 
           <div>
-            <div>
-              <h4>SHARE YOUR PROFILE</h4>
-            </div>
-            <div>
-              <textarea
-                name="copy"
-                cols={40}
-                rows={1}
-                id=""
-                value={`https://www.fiverr.com/meetpatel3670`}
-              ></textarea>
-            </div>
-            <div>
-              <div>
-                <a href="#" class="fa fa-instagram"></a>
+            <div className="CBMainTitleDiv">
+              <div className="MainTitlediv1">
+                <p>SHARE YOUR PROFILE</p>
               </div>
+            </div>
+            <hr />
+
+            <div className="SPLinksMainDiv">
               <div>
-                <a href="#" class="fa fa-facebook"></a>
+                <textarea
+                  name="copy"
+                  cols={40}
+                  rows={1}
+                  id=""
+                  value={`https://www.fiverr.com/meetpatel3670`}
+                ></textarea>
               </div>
-              <div>
-                <a href="#" class="fa fa-twitter"></a>
+
+              <div className="SPMediaLinks">
+                <div>
+                  <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div>
+                  <a href="#" class="fa fa-facebook"></a>
+                </div>
+                <div>
+                  <a href="#" class="fa fa-twitter"></a>
+                </div>
               </div>
             </div>
           </div>
