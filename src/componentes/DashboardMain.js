@@ -3,6 +3,7 @@ import logo from "./Images/logo.png";
 import "./DashboardMain.css";
 import EarningDash from "./EarningDash";
 import Buyreq from "./BuyerReq";
+import Gig from "./Gigs";
 
 export default function DashboardMain() {
 	const [Dashboard, setDashboard] = useState(true);
@@ -201,6 +202,7 @@ export default function DashboardMain() {
 					<div>
 						{Earnings && <EarningDash />}
 						{BuyerReq && <Buyreq />}
+						{Gigs && <Gig />}
 					</div>
 				</div>
 			</div>
