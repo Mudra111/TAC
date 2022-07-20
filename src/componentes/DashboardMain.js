@@ -3,56 +3,58 @@ import logo from "./Images/logo.png";
 import "./DashboardMain.css";
 import EarningDash from "./EarningDash";
 import Buyreq from "./BuyerReq";
+import ScaleBusiness from "./ScaleBusiness";
 import Gig from "./Gigs";
 import Order from "./Order"
 
 export default function DashboardMain() {
-	const [Dashboard, setDashboard] = useState(true);
-	const [Messages, setMessages] = useState(false);
-	const [Orders, setOrders] = useState(false);
-	const [Gigs, setGigs] = useState(false);
-	const [Analytics, setAnalytics] = useState(false);
-	const [Earnings, setEarnings] = useState(false);
-	const [Community, setCommunity] = useState(false);
-	const [More, setMore] = useState(false);
-	const [BuyerReq, setBuyerReq] = useState(false);
+  const [Dashboard, setDashboard] = useState(true);
+  const [Messages, setMessages] = useState(false);
+  const [Orders, setOrders] = useState(false);
+  const [Gigs, setGigs] = useState(false);
+  const [Analytics, setAnalytics] = useState(false);
+  const [Earnings, setEarnings] = useState(false);
+  const [Community, setCommunity] = useState(false);
+  const [More, setMore] = useState(false);
+  const [BuyerReq, setBuyerReq] = useState(false);
+  const [ScaleBus, setScaleBus] = useState(false);
 
-	const ShowDropMore = () => {
-		if (More) {
-			setMore(false);
-		} else {
-			setMore(true);
-		}
-	};
+  const ShowDropMore = () => {
+    if (More) {
+      setMore(false);
+    } else {
+      setMore(true);
+    }
+  };
 
-	return (
-		<div>
-			<div className="MainDivDashboard">
-				<nav className="nav1ForDash">
-					<div className="">
-						<ul className="nav justify-content-end ">
-							<li className="nav-item-dash me-5">
-								<img src={logo} alt="" className="setlogo" />
-							</li>
-							<li className="nav-item-dash right">
-								<form class="d-flex">
-									<input
-										class="form-control me-2"
-										type="search"
-										placeholder="Search"
-										aria-label="Search"
-									/>
-									<button
-										className="btn btn-outline-success searchbtn"
-										type="submit"
-									>
-										Search
-									</button>
-								</form>
-							</li>
-						</ul>
-					</div>
-				</nav>
+  return (
+    <div>
+      <div className="MainDivDashboard">
+        <nav className="nav1ForDash">
+          <div className="">
+            <ul className="nav justify-content-end ">
+              <li className="nav-item-dash me-5">
+                <img src={logo} alt="" className="setlogo" />
+              </li>
+              <li className="nav-item-dash right">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button
+                    className="btn btn-outline-success searchbtn"
+                    type="submit"
+                  >
+                    Search
+                  </button>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
 				<div className="MainPageDashboard">
 					<div className="verticalNav">
@@ -164,13 +166,6 @@ export default function DashboardMain() {
 							</li>
 							<li
 								onClick={() => {
-									// setDashboard(false);
-									// setMessages(false);
-									// setOrders(false);
-									// setGigs(false);
-									// setAnalytics(false);
-									// setEarnings(false);
-									// setCommunity(false);
 									ShowDropMore();
 								}}
 							>

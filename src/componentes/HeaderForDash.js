@@ -52,7 +52,7 @@ export default function HeaderForDash(props) {
               </Link>
             </li>
             <li className="nav-item-dash dropdown">
-              <Link to="/gigs">
+              <Link to="/gigs1">
                 <b>Gigs</b>
               </Link>
             </li>

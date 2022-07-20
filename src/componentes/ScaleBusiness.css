@@ -1,0 +1,157 @@
+.CBMainDiv {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.ProfileMainDiv {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.ProfileMainDiv div.ProfileImg img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.ProfileMainDiv .ProfileImg {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProfileSubDiv1 .ProfileDet,
+.ProfileSubDiv1 .ProfileBtn {
+  width: 30%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.ProfileSubDiv1 .ProfileDet p:first-of-type {
+  font-weight: 700;
+  font-size: large;
+}
+
+.ProfileSubDiv1 .ProfileDet p:last-of-type {
+  font-weight: 700;
+}
+
+.ProfileSubDiv1 .ProfileBtn button {
+  padding: 5px 15px;
+  background: linear-gradient(to bottom right, #941c6c, #c2569e, #5f0b43);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.ProfileSubDiv1 .ProfileBtn button:hover {
+  padding: 7px 17px;
+  background: linear-gradient(to top left, #941c6c, #c2569e, #5f0b43);
+  transition: 0.1s;
+}
+
+.CBSubDiv1 {
+  background: rgb(235, 235, 235);
+  border: 1px solid gray;
+  width: 90%;
+  margin: 20px auto 40px auto;
+}
+
+.CBMainTitleDiv {
+  padding: 20px;
+  text-align: center;
+}
+
+.MainTitlediv1 {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.CBMainTitleDiv .MainTitlediv2 {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.CBBadgeCatMain {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.CBBadgeCatMain p {
+  font-weight: 500;
+  font-size: large;
+  padding-bottom: 5px;
+}
+
+.CBBadgeCatMain div select option {
+  font-size: small;
+  font-weight: 500;
+  color: black;
+}
+
+.CBBadgeCatMain div select {
+  font-size: small;
+  border-radius: 3px;
+  background: rgb(255, 252, 252);
+  font-weight: 500;
+  color: rgb(74, 72, 72);
+}
+
+.CBBadgeCatMain div textarea {
+  font-size: small;
+  border-radius: 3px;
+  background: rgb(255, 252, 252);
+  font-weight: 500;
+  color: rgb(74, 72, 72);
+}
+
+.SPLinksMainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SPLinksMainDiv .SPMediaLinks {
+  display: flex;
+  margin: 10px 40px 10px 0px;
+}
+
+.SPLinksMainDiv .SPMediaLinks div {
+  border: 2px solid rgba(61, 61, 61, 0.749);
+  border-radius: 20%;
+  margin: 0px 5px;
+}
+
+.SPLinksMainDiv .SPMediaLinks div:hover {
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 20%;
+}
+
+.SPLinksMainDiv .SPMediaLinks div:hover a,
+.SPLinksMainDiv .SPMediaLinks div:hover a.fa-facebook {
+  color: white;
+}
+
+.SPLinksMainDiv .SPMediaLinks div a {
+  color: orange;
+  padding: 3px 5px !important;
+}
+
+.SPLinksMainDiv .SPMediaLinks div a.fa-facebook {
+  color: orange;
+  padding: 3px 10px !important;
+  /* font-size: medium; */
+}
+
+.SPLinksMainDiv div textarea {
+  font-size: medium;
+  border-radius: 3px;
+  background: rgb(255, 252, 252);
+  font-weight: 500;
+  color: rgb(74, 72, 72);
+  margin: 10px 0px 10px 40px;
+}
