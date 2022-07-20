@@ -3,7 +3,7 @@ import Home from "../src/Home";
 import Footer from "./componentes/Footer";
 import Insta from "./componentes/Insta";
 import Dashboard from "./componentes/dashboard";
-import Order from "./componentes/Order";
+import Order from "./componentes/Order1";
 import GraphicsDesign from "./componentes/GraphicsDesign";
 import DashboardMain from "./componentes/DashboardMain";
 import TACWorkScomp1 from "./componentes/TAC_WorkS_comp1";

@@ -1,171 +1,171 @@
 import React, { useState } from "react";
-import "./order.css";
-import HeaderForDash from "./HeaderForDash";
-import OrderMenu1Prio from "./OrderMenu1-Prio";
-import OrderMenu1Active from "./OrderMenu1-Active";
-import OrderMenu1Cancel from "./OrderMenu1-Cancel";
-import OrderMenu1Comp from "./OrderMenu1-Comp";
-import OrderMenu1Deliver from "./OrderMenu1-Deliver";
-import OrderMenu1Late from "./OrderMenu1-Late";
-import OrderMenu1Star from "./OrderMenu1-Star";
+import "./Order.css";
+import Comp1 from "./Order_comp1";
+import Comp2 from "./Order_comp2";
+import Comp3 from "./Order_comp3";
+import Comp4 from "./Order_comp4";
+import Comp5 from "./Order_comp5";
+import Comp6 from "./Order_comp6";
+import Comp7 from "./Order_comp7";
 
-function Order() {
-  const [orderPrior, setOrderPrior] = useState(true);
-  const [orderActive, setOrderActive] = useState(false);
-  const [orderLate, setOrderLate] = useState(false);
-  const [orderDelivered, setOrderDelivered] = useState(false);
-  const [orderCompleted, setOrderCompleted] = useState(false);
-  const [orderCancelled, setOrderCancelled] = useState(false);
-  const [orderStarred, setOrderStarred] = useState(false);
+export default function Order() {
+	const [priority, setPriority] = useState(true);
+	const [active, setActive] = useState(false);
+	const [late, setLate] = useState(false);
+	const [delivered, setDelivered] = useState(false);
+	const [completed, setCompleted] = useState(false);
+	const [cancelled, setCancelled] = useState(false);
+	const [starred, setStarred] = useState(false);
 
-  return (
-    <div className="order-body">
-      <HeaderForDash />
-      <div className="order-display">
-        <div>
-          <p className="order-title">Manage Orders</p>
-        </div>
-        <div className="searchbar">
-          <form>
-            <input
-              type="search"
-              placeholder="Search My History..."
-              aria-label="Search"
-            />
-            <button className="order-searchbtn" type="submit">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                fill="currentColor"
-                class="bi bi-search"
-                viewBox="0 0 16 16"
-              >
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-              </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-      <div className="subnav">
-        <ul className="subnav-list">
-          <li>
-            <button
-              onClick={() => {
-                setOrderPrior(true);
-                setOrderActive(false);
-                setOrderLate(false);
-                setOrderDelivered(false);
-                setOrderCompleted(false);
-                setOrderCancelled(false);
-                setOrderStarred(false);
-              }}
-            >
-              PRIORITY
-            </button>
-          </li>
+	return (
+		<div>
+			<div className="MainDivOrder">
+				<div className="FrstDOrdr">
+					<div>
+						<p>Manage Orders</p>
+					</div>
+					<div className="SeachBarOrdr">
+						<form>
+							<input
+								type="search"
+								placeholder="Search My History..."
+								aria-label="Search"
+							/>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="20"
+								height="20"
+								fill="gray"
+								class="bi bi-search"
+								viewBox="0 0 16 16"
+							>
+								<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85
+								 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1
+								  1-11 0 5.5 5.5 0 0 1 11 0z" />
+							</svg>
+						</form>
+					</div>
+				</div>
 
-          <li>
-            <button
-              onClick={() => {
-                setOrderActive(true);
-                setOrderPrior(false);
-                setOrderLate(false);
-                setOrderDelivered(false);
-                setOrderCompleted(false);
-                setOrderCancelled(false);
-                setOrderStarred(false);
-              }}
-            >
-              ACTIVE
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setOrderLate(true);
-                setOrderActive(false);
-                setOrderPrior(false);
-                setOrderDelivered(false);
-                setOrderCompleted(false);
-                setOrderCancelled(false);
-                setOrderStarred(false);
-              }}
-            >
-              LATE
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setOrderDelivered(true);
-                setOrderActive(false);
-                setOrderLate(false);
-                setOrderPrior(false);
-                setOrderCompleted(false);
-                setOrderCancelled(false);
-                setOrderStarred(false);
-              }}
-            >
-              DELIVERED
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setOrderCompleted(true);
-                setOrderActive(false);
-                setOrderLate(false);
-                setOrderDelivered(false);
-                setOrderPrior(false);
-                setOrderCancelled(false);
-                setOrderStarred(false);
-              }}
-            >
-              COMPLETED
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setOrderCancelled(true);
-                setOrderActive(false);
-                setOrderLate(false);
-                setOrderDelivered(false);
-                setOrderCompleted(false);
-                setOrderPrior(false);
-                setOrderStarred(false);
-              }}
-            >
-              CANCELLED
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setOrderStarred(true);
-                setOrderActive(false);
-                setOrderLate(false);
-                setOrderDelivered(false);
-                setOrderCompleted(false);
-                setOrderCancelled(false);
-                setOrderPrior(false);
-              }}
-            >
-              STARRED
-            </button>
-          </li>
-        </ul>
-      </div>
-      {orderPrior && <OrderMenu1Prio />}
-      {orderActive && <OrderMenu1Active />}
-      {orderLate && <OrderMenu1Late />}
-      {orderCancelled && <OrderMenu1Cancel />}
-      {orderCompleted && <OrderMenu1Comp />}
-      {orderStarred && <OrderMenu1Star />}
-      {orderDelivered && <OrderMenu1Deliver />}
-    </div>
-  );
+				<div className="ScndDOrdr">
+					<div className="FstInnScnDOrdr">
+						<div
+							className={`${priority ? "FstinnSDOrdr1Act" : "FstinnSDOrdr1"}`}
+							onClick={() => {
+								setPriority(true);
+								setActive(false);
+								setLate(false);
+								setDelivered(false);
+								setCompleted(false);
+								setCancelled(false);
+								setStarred(false);
+							}}
+						>
+							PRIORITY
+						</div>
+
+						<div
+							className={`${active ? "FstinnSDOrdr2Act" : "FstinnSDOrdr2"}`}
+							onClick={() => {
+								setPriority(false);
+								setActive(true);
+								setLate(false);
+								setDelivered(false);
+								setCompleted(false);
+								setCancelled(false);
+								setStarred(false);
+							}}
+						>
+							ACTIVE
+						</div>
+
+						<div
+							className={`${late ? "FstinnSDOrdr3Act" : "FstinnSDOrdr3"}`}
+							onClick={() => {
+								setPriority(false);
+								setActive(false);
+								setLate(true);
+								setDelivered(false);
+								setCompleted(false);
+								setCancelled(false);
+								setStarred(false);
+							}}
+						>
+							LATE
+						</div>
+
+						<div
+							className={`${delivered ? "FstinnSDOrdr4Act" : "FstinnSDOrdr4"}`}
+							onClick={() => {
+								setPriority(false);
+								setActive(false);
+								setLate(false);
+								setDelivered(true);
+								setCompleted(false);
+								setCancelled(false);
+								setStarred(false);
+							}}
+						>
+							DELIVERED
+						</div>
+
+						<div
+							className={`${completed ? "FstinnSDOrdr5Act" : "FstinnSDOrdr5"}`}
+							onClick={() => {
+								setPriority(false);
+								setActive(false);
+								setLate(false);
+								setDelivered(false);
+								setCompleted(true);
+								setCancelled(false);
+								setStarred(false);
+							}}
+						>
+							COMPLETED
+						</div>
+
+						<div
+							className={`${cancelled ? "FstinnSDOrdr6Act" : "FstinnSDOrdr6"}`}
+							onClick={() => {
+								setPriority(false);
+								setActive(false);
+								setLate(false);
+								setDelivered(false);
+								setCompleted(false);
+								setCancelled(true);
+								setStarred(false);
+							}}
+						>
+							CANCELLED
+						</div>
+
+						<div
+							className={`${starred ? "FstinnSDOrdr7Act" : "FstinnSDOrdr7"}`}
+							onClick={() => {
+								setPriority(false);
+								setActive(false);
+								setLate(false);
+								setDelivered(false);
+								setCompleted(false);
+								setCancelled(false);
+								setStarred(true);
+							}}
+						>
+							STARRED
+						</div>
+					</div>
+				</div>
+
+				<div className="ThrdDOrdr">
+					{priority && <Comp1 />}
+					{active && <Comp2 />}
+					{late && <Comp3 />}
+					{delivered && <Comp4 />}
+					{completed && <Comp5 />}
+					{cancelled && <Comp6 />}
+					{starred && <Comp7 />}
+				</div>
+			</div>
+		</div>
+	);
 }
-
-export default Order;

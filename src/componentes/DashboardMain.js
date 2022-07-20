@@ -4,6 +4,7 @@ import "./DashboardMain.css";
 import EarningDash from "./EarningDash";
 import Buyreq from "./BuyerReq";
 import Gig from "./Gigs";
+import Order from "./Order"
 
 export default function DashboardMain() {
 	const [Dashboard, setDashboard] = useState(true);
@@ -163,13 +164,13 @@ export default function DashboardMain() {
 							</li>
 							<li
 								onClick={() => {
-									setDashboard(false);
-									setMessages(false);
-									setOrders(false);
-									setGigs(false);
-									setAnalytics(false);
-									setEarnings(false);
-									setCommunity(false);
+									// setDashboard(false);
+									// setMessages(false);
+									// setOrders(false);
+									// setGigs(false);
+									// setAnalytics(false);
+									// setEarnings(false);
+									// setCommunity(false);
 									ShowDropMore();
 								}}
 							>
@@ -203,6 +204,7 @@ export default function DashboardMain() {
 						{Earnings && <EarningDash />}
 						{BuyerReq && <Buyreq />}
 						{Gigs && <Gig />}
+						{Orders && <Order />}
 					</div>
 				</div>
 			</div>
