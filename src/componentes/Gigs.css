@@ -17,21 +17,36 @@
   padding-bottom: 20px;
   color: white;
   text-shadow: 3px 3px 3px rgb(61, 61, 61);
-  background-color: gainsboro;
+  background-color: rgba(106, 186, 252, 0.673);
 }
 
 .Gigs-Toggles {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10px;
+  padding-right: 40px;
+  /* background-color: rgba(97, 96, 96, 0.723); */
+  color: white;
 }
 
 .Gigs-SubToggle1 {
   display: flex;
-  margin: 10px 10px;
+  padding: 10px 10px;
   font-size: 15px;
   font-weight: 500;
+  background-color: rgba(97, 96, 96, 0.723);
+  margin-top: 10px;
 }
+
+.toggel1{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.toggel2{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 
 div.Gigs-SubToggle1 > p:first-of-type {
   /* padding-top: 5px; */
@@ -48,7 +63,8 @@ div.Gigs-SubToggle1 > p:first-of-type {
 }
 
 .ScndDGig {
-  background-color: white;
+  background-color: rgb(70, 70, 70);
+  color: white;
   padding: 0px 0px;
   padding-left: 10px;
   display: flex;
@@ -76,7 +92,8 @@ div.Gigs-SubToggle1 > p:first-of-type {
 .FstinnSDGig5Act,
 .FstinnSDGig6Act {
   padding: 15px 20px;
-  background-color: rgba(237, 234, 234, 0.674);
+  background-color: rgba(239, 238, 238);
+	color: black;
 }
 
 .FstinnSDGig1:hover,
@@ -85,7 +102,7 @@ div.Gigs-SubToggle1 > p:first-of-type {
 .FstinnSDGig4:hover,
 .FstinnSDGig5:hover,
 .FstinnSDGig6:hover {
-  box-shadow: 1px 1px 15px rgba(144, 144, 144, 0.801);
+  box-shadow: 1px 1px 15px rgba(6, 6, 6, 0.801);
   cursor: pointer;
 }
 

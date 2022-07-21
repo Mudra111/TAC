@@ -17,11 +17,12 @@
 	padding-bottom: 20px;
 	color: white;
 	text-shadow: 3px 3px 3px rgb(61, 61, 61);
-	background-color: gainsboro;
+	background-color: rgba(106, 186, 252, 0.673);
 }
 
 .ScndDBR {
-	background-color: white;
+	background-color: rgb(70, 70, 70);
+	color: white;
 	padding: 0px 0px;
 	padding-left: 10px;
 	display: flex;
@@ -39,17 +40,23 @@ padding: 15px 20px;
 
 .FstinnSDBR1Act, .FstinnSDBR2Act{
 	padding: 15px 20px;
-	background-color: rgba(237, 234, 234, 0.674);
+	background-color: rgba(239, 238, 238);
+	color: black;
 }
 	
 
 .FstinnSDBR1:hover, .FstinnSDBR2:hover{
-	box-shadow: 1px 1px 15px rgba(144, 144, 144, 0.801);
+	box-shadow: 1px 1px 15px rgba(6, 6, 6, 0.801);
 }
 
 .ScndInnScnDBR{
-	padding-left: 20px;
+	padding-left: 25px;
 	padding-top: 10px;
+	padding-right: 10px;
+	background-color: rgba(255, 255, 255, 0.993);
+	color: black;
+	border-radius: 10px;
+	margin: 5px 0px;
 }
 
 .ScndInnScnDBR::before{
