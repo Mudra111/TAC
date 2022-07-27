@@ -7,6 +7,7 @@ import ScaleBusiness from "./ScaleBusiness";
 import Gig from "./Gigs";
 import Order from "./Order";
 import Messages1 from "./Messages";
+import Dashboard1 from "./Dashboard1";
 
 export default function DashboardMain() {
   const [Dashboard, setDashboard] = useState(true);
@@ -218,8 +219,8 @@ export default function DashboardMain() {
               </ul>
             </ul>
           </div>
-
           <div>
+            {Dashboard && <Dashboard1 />}
             {Earnings && <EarningDash />}
             {BuyerReq && <Buyreq />}
             {Gigs && <Gig />}
