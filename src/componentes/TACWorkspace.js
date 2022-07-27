@@ -35,7 +35,7 @@ export default function TACWorkspace() {
     <div>
       <TACworkspaceNav />
       <TACWorkScomp1 />
-      <div>
+      <div className="WS-SubNav">
         <div className="WS-MainSubNav">
           <div className="TAC_WS_scrollBtn">
             <button onClick={scroll1}>SMART TOOLS FOR SMART BUSINESSES</button>

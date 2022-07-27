@@ -2,17 +2,17 @@ import React from "react";
 import "./login.css";
 import { Link } from "react-router-dom";
 
-function Login({ closeLoginModal }) {
+function Signin({ closeSigninModal }) {
   return (
     <>
-      <div className="overlay" onClick={() => closeLoginModal(false)}></div>
+      <div className="overlay" onClick={() => closeSigninModal(false)}></div>
       <div className="body">
         <div className="main-form1">
           <div className="title">
-            <div className="head">Join TAC</div>
+            <div className="head">Sign In to TAC</div>
             <button
               className="canclebtn"
-              onClick={() => closeLoginModal(false)}
+              onClick={() => closeSigninModal(false)}
             >
               X
             </button>
@@ -109,14 +109,20 @@ function Login({ closeLoginModal }) {
                   <button>Continue</button>
                 </div>
 
-                <div className="agreement">
-                  <span>By joining I agree to receive emails from TAC.</span>
+                <div className="signin-fp">
+                  <div>
+                    <input type="checkbox" id="Remember" name="Remember" />
+                    <label htmlFor="Remember">Remember Me</label>
+                  </div>
+                  <div>
+                    <Link to="/">Forget Password?</Link>
+                  </div>
                 </div>
               </div>
               <hr />
               <div className="ask">
-                <span>Already a member?</span>
-                <Link to="/">Sign In</Link>
+                <span>Not a member yet?</span>
+                <Link to="/">Join Now</Link>
               </div>
             </form>
           </div>
@@ -126,4 +132,4 @@ function Login({ closeLoginModal }) {
   );
 }
 
-export default Login;
+export default Signin;

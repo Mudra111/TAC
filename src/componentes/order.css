@@ -1,42 +1,42 @@
 .MainDivOrder {
-	background-color: rgba(239, 238, 238, 0.777);
-	height: 900px;
-	width: 100%;
+  background-color: rgba(239, 238, 238, 0.777);
+  height: 900px;
+  width: 100%;
 }
 
 .FrstDOrdr {
-	padding: 0px;
-	margin: 0px;
-	display: flex;
-	justify-content: space-between;
-	background-color: rgba(106, 186, 252, 0.673);
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #cb54a3;
 }
 
 .FrstDOrdr p {
-	font-size: 50px;
-	font-weight: 400;
-	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	color: white;
-	text-shadow: 3px 3px 3px rgb(61, 61, 61);
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: white;
+  text-shadow: 3px 3px 3px rgb(61, 61, 61);
 }
 
 .ScndDOrdr {
-	border-top: 1px solid black;
-	background-color: rgb(70, 70, 70);
-	padding: 0px 0px;
-	color: white;
-	padding-left: 10px;
-	display: flex;
-	justify-content: space-between;
-	padding-right: 15px;
+  border-top: 1px solid black;
+  background-color: rgb(70, 70, 70);
+  padding: 0px 0px;
+  color: white;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
 }
 
 .FstInnScnDOrdr {
-	display: flex;
-	cursor: pointer;
+  display: flex;
+  cursor: pointer;
 }
 
 .FstinnSDOrdr1,
@@ -46,7 +46,7 @@
 .FstinnSDOrdr5,
 .FstinnSDOrdr6,
 .FstinnSDOrdr7 {
-	padding: 15px 20px;
+  padding: 15px 20px;
 }
 
 .FstinnSDOrdr1Act,
@@ -56,9 +56,9 @@
 .FstinnSDOrdr5Act,
 .FstinnSDOrdr6Act,
 .FstinnSDOrdr7Act {
-	padding: 15px 20px;
-	background-color: rgba(239, 238, 238);
-	color: black;
+  padding: 15px 20px;
+  background-color: rgba(239, 238, 238);
+  color: black;
 }
 
 .FstinnSDOrdr1:hover,
@@ -68,48 +68,48 @@
 .FstinnSDOrdr5:hover,
 .FstinnSDOrdr6:hover,
 .FstinnSDOrdr7:hover {
-	box-shadow: 1px 1px 15px rgba(6, 6, 6, 0.801);
+  box-shadow: 1px 1px 15px rgba(6, 6, 6, 0.801);
 }
 
 .SeachBarOrdr input {
-	background-color: transparent;
-	border-top: none;
-	border-bottom: none;
-	border-right: none;
-	border-left: none;
-	padding: 5px;
-	width: 180px;
-	transition-duration: 0.8s;
-	transition-timing-function: ease-in;
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  padding: 5px;
+  width: 180px;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in;
 }
 
 .SeachBarOrdr input:focus {
-	background-color: transparent;
-	border-top: none;
-	/* border-bottom: 2px solid #4e0134; */
-	border-right: none;
-	border-left: none;
-	outline: none !important;
-	width: 220px;
-	transition-duration: 0.8s;
-	transition-timing-function: ease-out;
+  background-color: transparent;
+  border-top: none;
+  /* border-bottom: 2px solid #4e0134; */
+  border-right: none;
+  border-left: none;
+  outline: none !important;
+  width: 220px;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-out;
 }
 
 .SeachBarOrdr input::-webkit-search-cancel-button {
-	display: none;
+  display: none;
 }
 
 .SeachBarOrdr {
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: 30px;
-	background-color: rgba(255, 255, 255, 0.866);
-	padding: 0px 10px;
-	border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 30px;
+  background-color: rgba(255, 255, 255, 0.866);
+  padding: 0px 10px;
+  border-radius: 10px;
 }
 
 .SeachBarOrdr svg {
-	position: absolute;
-	right: 40px;
-	top: 150px;
+  position: absolute;
+  right: 40px;
+  top: 150px;
 }
