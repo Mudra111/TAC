@@ -12,6 +12,7 @@ import SocialMarketing from "./componentes/Social-Marketing";
 import TACWorkspace from "./componentes/TACWorkspace";
 import Gigs from "./componentes/Gigs";
 import Gigs1 from "./componentes/Gigs1";
+import HomePage from "./componentes/Home_Page"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/TACworkspace" element={<TACWorkspace />} />
         <Route exact path="/DashBoardMain" element={<DashboardMain />} />
         <Route exact path="/tacworksc1" element={<TACWorkScomp1 />} />
+        <Route exact path="/Home_page" element={<HomePage/>} />
       </Routes>
       <Footer />
     </Router>

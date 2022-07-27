@@ -6,6 +6,7 @@ import Buyreq from "./BuyerReq";
 import ScaleBusiness from "./ScaleBusiness";
 import Gig from "./Gigs";
 import Order from "./Order"
+import Dashboard1 from "./Dashboard1"
 
 export default function DashboardMain() {
   const [Dashboard, setDashboard] = useState(true);
@@ -196,6 +197,7 @@ export default function DashboardMain() {
 					</div>
 
 					<div>
+					{Dashboard && <Dashboard1 />}
 						{Earnings && <EarningDash />}
 						{BuyerReq && <Buyreq />}
 						{Gigs && <Gig />}
