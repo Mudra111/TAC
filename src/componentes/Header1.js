@@ -4,9 +4,12 @@ import "./header1.css";
 import Header2 from "./Header2";
 import logo from "./Images/logo.png";
 import Login from "./login";
+import Signin from "./SignIn";
+import SignIn from "./SignIn";
 
 export default function Header1(props) {
   const [openLoginModal, setOpenLoginModal] = useState(false);
+  const [openSigninModal, setOpenSigninModal] = useState(false);
 
   const navbar = props.navbar;
 
@@ -233,6 +236,11 @@ export default function Header1(props) {
                       Dashboard
                     </a>
                   </Link>
+                  <Link to="/DashBoardMain">
+                    <a className="dropdown-item" href="#">
+                      DashboardMain
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -246,6 +254,19 @@ export default function Header1(props) {
                 <b>Join</b>
               </button>
               {openLoginModal && <Login closeLoginModal={setOpenLoginModal} />}
+            </li>
+            <li className="nav-item">
+              <button
+                className="joinbtn"
+                onClick={() => {
+                  setOpenSigninModal(true);
+                }}
+              >
+                <b>SignIn</b>
+              </button>
+              {openSigninModal && (
+                <SignIn closeSigninModal={setOpenSigninModal} />
+              )}
             </li>
           </ul>
         </div>

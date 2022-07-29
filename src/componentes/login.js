@@ -89,13 +89,19 @@ function Login({ closeLoginModal }) {
             <form action="#">
               <div className="user-det1">
                 <div className="input">
-                  {/*<lable>{location.state.name}</lable>
-	          <lable>{location.state.id}</lable>*/}
                   <input
                     type="text"
                     placeholder="Enter Your Email_ID"
                     required
                     id="Email_ID"
+                  />
+                </div>
+                <div className="input">
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    required
+                    id="Password"
                   />
                 </div>
 

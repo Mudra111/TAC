@@ -4,7 +4,6 @@ import Item from "./slider2-com";
 import Subslider1 from "./subslider1";
 import "./subslider2.css";
 import profilepic from "./Images/profile-pic.png";
-import Header from "../Header";
 
 export default function Insta() {
   const [items, setItems] = useState([]);
@@ -42,7 +41,7 @@ export default function Insta() {
 
   return (
     <div>
-    <Header />
+      {/* <Header /> */}
       <div className="row row-cols-4">
         {items.map((item) => {
           return (
@@ -73,6 +72,21 @@ export default function Insta() {
                   <div className="price-container">
                     <div className="like-button">
                       <a href="#">
+                        <span className="like-sym">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="25"
+                            height="25"
+                            fill="currentColor"
+                            class="bi bi-list"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                            />
+                          </svg>
+                        </span>
                         <span className="like-sym">&#10084;</span>
                       </a>
                     </div>

@@ -1,0 +1,66 @@
+.mainDivTWC3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frstDivTWC3 p {
+  background-image: linear-gradient(to right, rgb(211, 208, 208), white);
+  box-shadow: 2px 2px rgb(216, 215, 215);
+  width: fit-content;
+  margin: 0 auto;
+  color: #a3036e;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.scndDivTWC3 p {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.thrdDivTWC3 p {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+.frthDivTWC3 {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.D1FrthDTWC3,
+.D2FrthDTWC3,
+.D3FrthDTWC3 {
+  padding: 15px 5px;
+  width: 350px;
+  text-align: center;
+  border: 3.5px solid rgb(68, 68, 68);
+  box-shadow: 0px 0px 15px rgb(103, 103, 103);
+}
+
+.D1FrthDTWC3 img,
+.D3FrthDTWC3 img {
+  width: 72px;
+  height: 80px;
+  margin: 10px 0;
+}
+
+.D2FrthDTWC3 img {
+  width: 80px;
+  height: 70px;
+  margin: 15px 0;
+}

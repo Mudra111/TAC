@@ -1,0 +1,241 @@
+/* Common */
+.SCM-SubNav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.SCM-SN-DropDown {
+  display: flex;
+}
+
+.dropdown-menu {
+  padding-top: 0;
+}
+
+.SCM-SN-DropDown svg {
+  margin-left: 8px;
+}
+
+.SCM-SN-toggles {
+  display: flex;
+}
+
+.SCM-SN-Subtoggles {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SCM-Dropdiv {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.SCM-SN-DropDown li {
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.SCM-Morebtn button {
+  border: none;
+  color: green;
+  background: transparent;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.apply-clear-btn {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.apply-clear-btn .clrbtn button {
+  border: none;
+  color: green;
+  background: transparent;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.apply-clear-btn .applybtn button {
+  border: green;
+  border-radius: 5px;
+  color: white;
+  background: green;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+/* Services Option and Seller Details */
+
+/* SO */
+.SN-drop {
+  width: 650px !important;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0px;
+  position: absolute;
+  top: 70px;
+  left: 35px;
+  background: white;
+  z-index: 100;
+}
+
+.SCM-SN-Cat {
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.SN-drop h6 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sort-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sort-grid input {
+  margin: 10px;
+  height: 17px;
+  width: 17px;
+}
+.sort-grid label span {
+  color: gray;
+  font-weight: 500;
+}
+.sort-grid label {
+  font-weight: 600;
+}
+
+/* SD */
+.SN-SD-drop {
+  width: 650px !important;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0px;
+  position: absolute;
+  top: 70px;
+  left: 220px;
+  background: white;
+  z-index: 100;
+}
+
+.SCM-SN-SD-Cat {
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.SN-SD-drop h6 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Delivery Time */
+.SN-Del-drop {
+  width: 250px !important;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0px;
+  position: absolute;
+  top: 70px;
+  left: 480px;
+  background: white;
+  z-index: 100;
+}
+
+.SCM-SN-Del-Cat {
+  overflow-y: scroll;
+  height: 180px;
+}
+
+.sort-delivery-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.sort-delivery-grid input {
+  margin: 10px;
+  height: 17px;
+  width: 17px;
+}
+.sort-delivery-grid label span {
+  color: gray;
+  font-weight: 500;
+}
+.sort-delivery-grid label {
+  font-weight: 600;
+}
+
+/* Budget */
+.SN-Budget-drop {
+  width: 330px !important;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0px;
+  position: absolute;
+  top: 70px;
+  left: 370px;
+  background: white;
+  z-index: 100;
+}
+
+.SCM-SN-Budget-Cat {
+  overflow-y: scroll;
+  height: 120px;
+}
+
+.sort-budget-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.sort-budget-grid input {
+  margin: 10px;
+  width: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.ForFirst-input {
+  color: gray;
+  font-style: normal;
+  position: absolute;
+  z-index: 1;
+  top: 52px;
+  left: 120px;
+}
+
+.ForSecond-input {
+  color: gray;
+  font-style: normal;
+  position: absolute;
+  z-index: 1;
+  top: 52px;
+  left: 270px;
+}
+
+.sort-budget-grid div {
+  width: 150px;
+}
+
+.sort-budget-grid label span {
+  color: gray;
+  font-weight: 500;
+}
+
+.sort-budget-grid label {
+  color: gray;
+  font-weight: 600;
+  margin-left: 20px;
+}

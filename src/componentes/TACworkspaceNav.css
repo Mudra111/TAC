@@ -1,0 +1,76 @@
+.WS-MainNav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.WS-MainNav-Div1 {
+  display: flex;
+  justify-content: center;
+}
+
+.WS-GT a,
+.WS-GU a,
+.WS-Con button {
+  font-family: "Nunito";
+  color: #cc0088;
+}
+
+.WS-GT a,
+.WS-GU a {
+  vertical-align: -webkit-baseline-middle;
+  font-size: large;
+}
+
+.WS-GT a:hover,
+.WS-GU a:hover {
+  text-decoration: 3px underline #cc0088;
+}
+
+.WS-Con button {
+  border: 2px solid #cc0088;
+  background: none;
+  padding: 10px 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  font-size: larger;
+  transition: 0.5s;
+}
+
+.WS-Con button:hover {
+  border: 2px solid #cc0088;
+  background: #cc0088;
+  color: white;
+  transition: 0.5s;
+}
+
+.WS-Con {
+  padding-top: 8px;
+}
+
+.WS-GT,
+.WS-GU {
+  padding-top: 14px;
+}
+
+.WS-logo {
+  display: flex;
+  font-family: "Nunito", sans-serif;
+  vertical-align: middle;
+  color: #cc0088;
+}
+
+.WS-logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+  padding-top: 14px;
+}
+
+.WS-logo h2 {
+  font-weight: 700;
+  padding-top: 14px;
+}

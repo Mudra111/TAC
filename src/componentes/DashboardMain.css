@@ -1,0 +1,80 @@
+/* css for header */
+
+.nav1ForDash {
+  width: 100%;
+  padding-right: 117px;
+  padding-left: 117px;
+  padding-top: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+  box-shadow: 3px 3px 3px rgb(207, 207, 207);
+  z-index: 100;
+}
+
+.nav-item-dash a > b {
+  color: black;
+  vertical-align: middle;
+}
+
+.searchbtn {
+  color: white !important;
+}
+
+/* css for mainpage */
+
+.MainPageDashboard {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+}
+
+/* vertical navbar */
+
+.verticalNav {
+  background-color: rgba(255, 255, 255, 0.493);
+  box-shadow: 2px 3px 3px rgb(207, 207, 207);
+}
+
+.ulInVN {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.ulInVN li {
+  padding: 20px 0;
+  font-size: 19px;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.ulInVN li:hover {
+  background-color: rgba(235, 233, 233, 0.989);
+  box-shadow: 2px 2px rgb(181, 181, 181);
+}
+
+.MoreDropDownShow {
+  margin: 0px;
+  padding: 0px;
+}
+
+.MoreDropDownShow li {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  /* transition: 1s ease-out; */
+  list-style: none;
+  padding: 15px 5px;
+  margin: 0px;
+  width: 100%;
+  background-color: rgba(102, 101, 101, 0.395);
+}
+
+.MoreDropDownShow li:hover {
+  background-color: rgba(101, 100, 100, 0.712);
+  color: white;
+  border: none;
+}
+
+.MoreDropDown li {
+  display: none;
+}

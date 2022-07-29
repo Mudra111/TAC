@@ -1,0 +1,28 @@
+.SM-SubDiv {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 144px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 15px black;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  vertical-align: middle;
+}
+
+.SMC-MainDiv .slick-next {
+  right: 55px !important;
+}
+
+.SMC-MainDiv .slick-prev {
+  left: 6px !important;
+}
+.SMC-MainDiv .slick-next::before,
+.SMC-MainDiv .slick-prev::before {
+  font-size: 65px !important;
+}
+
+.SMC-MainDiv .slick-slide {
+  width: 225px !important;
+  margin-left: 50px;
+}

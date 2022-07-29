@@ -1,0 +1,190 @@
+.TWSmain-sld {
+  position: relative;
+  height: 450px;
+  width: 55%;
+  perspective: 1000vw;
+  transform-style: preserve-3d;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-subSld {
+  height: 100%;
+  width: 55vw;
+  margin-bottom: 10px;
+  position: absolute;
+  transition: transform 0.4s ease;
+  border-radius: 40px;
+  border: 3px solid rgba(37, 37, 37, 0.841);
+}
+
+.sld1 {
+  background: url("./Images/Invoice\ and\ Pay.gif") white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 50px 5px rgb(153, 152, 152);
+}
+
+.sld2 {
+  background: url("./Images/Time\ and\ task\ management.gif") white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 50px 5px rgb(153, 152, 152);
+}
+.sld3 {
+  background: url("./Images/On-time_proposals-removebg-preview.png") white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 50px 5px rgb(153, 152, 152);
+}
+.sld4 {
+  background: url("./Images/Contracts\ to\ sign.gif") white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 50px 5px rgb(153, 152, 152);
+}
+.sld5 {
+  background: url("./Images/Income-Sync-unscreen.gif") white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 50px 5px rgb(153, 152, 152);
+}
+
+.main-subSld1 {
+  background: rgba(190, 130, 18, 0.731);
+  height: 82%;
+  width: 80%;
+  border-radius: 30px;
+  margin: 45px auto;
+  /* border: 2px solid black; */
+}
+
+.slider-subSld-text {
+  color: white;
+  padding-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.slider-subSld-text a {
+  display: flex;
+  color: white;
+}
+
+/* For sld1 */
+.dissld1 {
+  /* box-shadow: 0 1px 4px 0 #cc0088; */
+  transform: translate3d(0, 0, 0);
+}
+.dissld2-1 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(10%, 0, -100px);
+}
+.dissld3-1 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(20%, 0, -200px);
+}
+.dissld4-1 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-20%, 0, -200px);
+}
+.dissld5-1 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-10%, 0, -100px);
+}
+
+/* For sld2 */
+.dissld1-2 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(10%, 0, -100px);
+}
+.dissld2 {
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+  transform: translate3d(0, 0, 0);
+}
+.dissld3-2 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(10%, 0, -100px);
+}
+.dissld4-2 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(20%, 0, -200px);
+}
+.dissld5-2 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-20%, 0, -200px);
+}
+
+/* For sld3 */
+.dissld1-3 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(20%, 0, -200px);
+}
+.dissld2-3 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(20%, 0, -200px);
+}
+.dissld3 {
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+  transform: translate3d(0, 0, 0);
+}
+.dissld4-3 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(10%, 0, -100px);
+}
+.dissld5-3 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(20%, 0, -200px);
+}
+
+/* For sld4 */
+.dissld1-4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-10%, 0, -100px);
+}
+.dissld2-4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-10%, 0, -100px);
+}
+.dissld3-4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-10%, 0, -100px);
+}
+.dissld4 {
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+  transform: translate3d(0, 0, 0);
+}
+.dissld5-4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(10%, 0, -100px);
+}
+
+/* For sld5 */
+.dissld1-5 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-20%, 0, -200px);
+}
+.dissld2-5 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-20%, 0, -200px);
+}
+.dissld3-5 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-20%, 0, -200px);
+}
+.dissld4-5 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-10%, 0, -100px);
+}
+.dissld5 {
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+  transform: translate3d(0, 0, 0);
+}

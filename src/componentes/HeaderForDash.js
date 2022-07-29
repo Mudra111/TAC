@@ -52,9 +52,9 @@ export default function HeaderForDash(props) {
               </Link>
             </li>
             <li className="nav-item-dash dropdown">
-              <a id="navbarDropdown" data-bs-toggle="dropdown" href="#">
+              <Link to="/gigs1">
                 <b>Gigs</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item-dash dropdown">
               <a id="navbarDropdown" data-bs-toggle="dropdown" href="#">

@@ -1,0 +1,73 @@
+.MainDivBuyReq {
+  background-color: rgba(237, 234, 234, 0.674);
+  height: 900px;
+  width: 100%;
+}
+
+.FrstDBR {
+  padding: 0px;
+  margin: 0px;
+}
+
+.FrstDBR p {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 3px 3px 3px rgb(61, 61, 61);
+  background-color: #cb54a3;
+}
+
+.ScndDBR {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  padding: 0px 0px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.FstInnScnDBR {
+  display: flex;
+}
+
+.FstinnSDBR1,
+.FstinnSDBR2 {
+  padding: 15px 20px;
+}
+
+.FstinnSDBR1Act,
+.FstinnSDBR2Act {
+  padding: 15px 20px;
+  background-color: rgba(239, 238, 238);
+  color: black;
+}
+
+.FstinnSDBR1:hover,
+.FstinnSDBR2:hover {
+  box-shadow: 1px 1px 15px rgba(6, 6, 6, 0.801);
+}
+
+.ScndInnScnDBR {
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.993);
+  color: black;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.ScndInnScnDBR::before {
+  background: no-repeat url("./Images/BRicon.png");
+  content: "";
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 155px;
+  background-size: 30px 30px;
+  /* z-index: 1; */
+}

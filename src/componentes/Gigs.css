@@ -1,0 +1,127 @@
+.MainDivGigs {
+  background-color: rgba(237, 234, 234, 0.674);
+  height: 900px;
+  width: 100%;
+}
+
+.FrstDGig {
+  padding: 0px;
+  margin: 0px;
+}
+
+.FrstDGig p:first-child {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 3px 3px 3px rgb(61, 61, 61);
+  background-color: #cb54a3;
+}
+
+.Gigs-Toggles {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  /* background-color: rgba(97, 96, 96, 0.723); */
+  color: white;
+}
+
+.Gigs-SubToggle1 {
+  display: flex;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgba(97, 96, 96, 0.723);
+  margin-top: 10px;
+}
+
+.toggel1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.toggel2 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+div.Gigs-SubToggle1 > p:first-of-type {
+  /* padding-top: 5px; */
+  margin-right: 3px;
+}
+
+.Gigs-SubToggle1 p {
+  padding-top: 5px;
+}
+
+.Gigs-SubToggle1 span {
+  padding-top: 5px;
+  text-decoration: underline;
+}
+
+.ScndDGig {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  padding: 0px 0px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.FstInnScnDGig {
+  display: flex;
+}
+
+.FstinnSDGig1,
+.FstinnSDGig2,
+.FstinnSDGig3,
+.FstinnSDGig4,
+.FstinnSDGig5,
+.FstinnSDGig6 {
+  padding: 15px 20px;
+}
+
+.FstinnSDGig1Act,
+.FstinnSDGig2Act,
+.FstinnSDGig3Act,
+.FstinnSDGig4Act,
+.FstinnSDGig5Act,
+.FstinnSDGig6Act {
+  padding: 15px 20px;
+  background-color: rgba(239, 238, 238);
+  color: black;
+}
+
+.FstinnSDGig1:hover,
+.FstinnSDGig2:hover,
+.FstinnSDGig3:hover,
+.FstinnSDGig4:hover,
+.FstinnSDGig5:hover,
+.FstinnSDGig6:hover {
+  box-shadow: 1px 1px 15px rgba(6, 6, 6, 0.801);
+  cursor: pointer;
+}
+
+.create-gig-btn {
+  margin-right: 10px;
+  padding: 10px 0px;
+}
+
+.create-gig-btn button {
+  background-color: #cc0088;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.create-gig-btn button:hover {
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  color: #cc0088;
+}

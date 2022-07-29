@@ -1,0 +1,148 @@
+.MainDivTWC1 {
+  padding: 0;
+  margin: 0;
+}
+
+.divforimgTWC1 img {
+  height: 700px;
+  width: 100%;
+}
+
+.divinimgDivTWC1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.553);
+  height: 700px;
+  width: 800px;
+  border-bottom-right-radius: 700px;
+  animation-name: maindivani;
+  animation-duration: 3s;
+}
+
+@keyframes maindivani {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 800px;
+    height: 700px;
+  }
+}
+
+.divforimgTWC1 {
+  transform-style: preserve-3d;
+}
+
+.Div1inimgDc1 {
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  color: white;
+  font-size: 45px;
+  width: 650px;
+  font-weight: 700;
+  border-radius: 8px;
+  animation-name: div1imgdc1;
+  animation-duration: 5s;
+}
+
+.Div1inimgDc1 span {
+  font-weight: 500;
+}
+
+@keyframes div1imgdc1 {
+  0% {
+    top: 0px;
+    opacity: 0;
+  }
+  90% {
+    top: 170px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Div2inimgDc1 {
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  color: white;
+  font-size: 22px;
+  width: 450px;
+  animation-name: div2imgdc1;
+  animation-duration: 5s;
+}
+
+@keyframes div2imgdc1 {
+  0% {
+    left: 800px;
+    opacity: 0;
+  }
+  100% {
+    left: 100px;
+    opacity: 1;
+  }
+}
+
+.Div3inimgDc1 {
+  position: absolute;
+  top: 410px;
+  left: 100px;
+  color: white;
+  animation-name: div3imgdc1;
+  animation-duration: 5s;
+}
+
+.Div3inimgDc1 button {
+  padding: 10px 15px;
+  border-radius: 7px;
+  background-color: #cc0088;
+  color: rgba(255, 255, 255, 0.933);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Div3inimgDc1 button:hover {
+  color: #cc0088;
+  background-color: rgba(255, 255, 255, 0.933);
+}
+
+@keyframes div3imgdc1 {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  90% {
+    top: 410px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Div4inimgDc1 {
+  position: absolute;
+  top: 470px;
+  left: 100px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  animation-name: div4imgdc1;
+  animation-duration: 5s;
+}
+
+@keyframes div4imgdc1 {
+  0% {
+    left: 800px;
+    opacity: 0;
+  }
+  100% {
+    left: 100px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,92 @@
+.gigs-active-main {
+  border: 1px solid gray;
+  height: auto;
+  width: 95%;
+  margin: 5px 20px auto;
+  animation-name: GigComp;
+  animation-duration: 2s;
+}
+
+@keyframes GigComp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.gig-meaning {
+  padding: 10px 0px 0px 10px;
+  color: gray;
+  font-weight: 500;
+}
+
+.gigs-active-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.gigs-active-title {
+  padding: 5px 10px;
+}
+
+.gigs-active-dd {
+  padding: 0 10px;
+}
+
+.gigs-active-dd select {
+  padding: 7px 5px;
+}
+
+.gigs-active-cont {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid rgb(206, 206, 206);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding: 5px 0px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.gigs-active-cont div {
+  text-align: center;
+}
+
+.gigs-if-empty {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 0px 10px 15px;
+  color: rgb(143, 143, 143);
+  font-weight: 600;
+}
+
+.gigs-active-cont input.checkbox {
+  height: 28px;
+  width: 28px;
+  vertical-align: middle;
+}
+
+.gigs-active-head select {
+  font-size: small;
+  margin: 10px;
+  padding: 5px 0px;
+  text-align: left;
+  font-weight: 500;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.gigs-active-head select optgroup {
+  border: 0px;
+}
+
+.gigs-active-head select optgroup option {
+  font-size: small;
+  text-align: left;
+  font-weight: 500;
+  color: gray;
+  margin-left: 10px;
+}

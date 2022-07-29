@@ -1,0 +1,30 @@
+.drop {
+  width: 300px !important;
+}
+
+.num-sort-maindiv {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.sort-div {
+  display: flex;
+}
+
+.sort-div li {
+  list-style: none;
+}
+
+.sort-div a {
+  padding-left: 5px;
+}
+
+.sort-list {
+  margin: 20px !important;
+}
+
+.sort-div svg {
+  margin-left: 5px;
+}
