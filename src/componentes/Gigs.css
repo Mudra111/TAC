@@ -17,7 +17,7 @@
   padding-bottom: 20px;
   color: white;
   text-shadow: 3px 3px 3px rgb(61, 61, 61);
-  background-color: rgba(106, 186, 252, 0.673);
+  background-color: #cb54a3;
 }
 
 .Gigs-Toggles {
@@ -37,16 +37,15 @@
   margin-top: 10px;
 }
 
-.toggel1{
+.toggel1 {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.toggel2{
+.toggel2 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-
 
 div.Gigs-SubToggle1 > p:first-of-type {
   /* padding-top: 5px; */
@@ -93,7 +92,7 @@ div.Gigs-SubToggle1 > p:first-of-type {
 .FstinnSDGig6Act {
   padding: 15px 20px;
   background-color: rgba(239, 238, 238);
-	color: black;
+  color: black;
 }
 
 .FstinnSDGig1:hover,

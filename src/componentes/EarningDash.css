@@ -1,0 +1,160 @@
+.earningMain {
+  background: rgba(237, 234, 234, 0.674);
+  height: 100%;
+}
+
+.amount_cat {
+  border: 2px solid gray;
+  padding: 30px;
+  margin: 50px auto 10px auto;
+  width: 80%;
+  background: white;
+}
+
+.amount_cat .earn_subcomp {
+  padding: 5px 0px;
+  border-bottom: 1px solid lightgray;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.amount_cat .earn_subcomp:last-of-type {
+  border-bottom: none;
+}
+
+.earn_subcomp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.earn_btns {
+  padding: 10px 0px;
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+
+.earn_btns div button {
+  padding: 10px 20px;
+  background: #cc0088;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.earn_btns div button:hover {
+  color: #cc0088;
+  border: 2px solid #cc0088;
+  background: white;
+  border-radius: 10px;
+}
+
+.earn_comp2 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 20px auto 20px auto;
+}
+
+.earn_comp2_cat1 {
+  display: flex;
+  align-items: center;
+}
+
+.earn_comp2_cat1 div {
+  margin: 0 10px;
+}
+
+.earn_comp2_cat1 div:first-of-type {
+  margin: 0 5px;
+}
+
+.earn_comp2_cat1 div p {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.earn_comp2_cat1 div button {
+  padding: 5px 10px;
+  background: #cc0088;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  border: none;
+  border-radius: 10px;
+}
+
+.earn_comp2_cat1 div button:hover {
+  color: #cc0088;
+  border: 2px solid #cc0088;
+  background: white;
+}
+
+.earn_comp2_cat2 div button:hover {
+  color: #cc0088;
+  border: 2px solid #cc0088;
+  background: white;
+}
+
+.earn_comp2_cat2 option {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.earn_comp2_cat2 select {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.earn_comp2_cat2 div {
+  margin: 0 10px;
+}
+
+.earn_comp2_cat2 div:first-of-type {
+  margin: 0 5px;
+}
+
+.earn_comp2_cat2 div p {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.earn_comp2_cat2 {
+  display: flex;
+  align-items: center;
+}
+
+.earn_comp3 {
+  border: 1px solid gray;
+  height: auto;
+  width: 95%;
+  margin: 10px auto 20px auto;
+}
+
+.earn_comp3_cat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid rgb(206, 206, 206);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding: 5px 0px;
+  width: 95%;
+  margin: 20px auto 0 auto;
+  font-size: 15px;
+}
+
+.earn_comp3_cat div {
+  text-align: center;
+}
+
+.earn_comp3_empty {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 0px 10px 15px;
+  color: rgb(143, 143, 143);
+  font-weight: 600;
+}

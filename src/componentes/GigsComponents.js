@@ -14,14 +14,12 @@ export function GigsMenu1Active() {
 
         <div className="gigs-active-dd">
           <select>
-            <optgroup>
-              <option value="">LAST 7 DAYS</option>
-              <option value="">LAST 14 DAYS</option>
-              <option value="">LAST 30 DAYS</option>
-              <option value="">LAST 2 MONTHS</option>
-              <option value="">LAST 3 MONTHS</option>
-              <option value="">LAST 6 MONTHS</option>
-            </optgroup>
+            <option value="">LAST 7 DAYS</option>
+            <option value="">LAST 14 DAYS</option>
+            <option value="">LAST 30 DAYS</option>
+            <option value="">LAST 2 MONTHS</option>
+            <option value="">LAST 3 MONTHS</option>
+            <option value="">LAST 6 MONTHS</option>
           </select>
         </div>
       </div>
@@ -57,14 +55,12 @@ export function GigsMenu2PA() {
 
         <div className="gigs-active-dd">
           <select>
-            <optgroup>
-              <option value="">LAST 7 DAYS</option>
-              <option value="">LAST 14 DAYS</option>
-              <option value="">LAST 30 DAYS</option>
-              <option value="">LAST 2 MONTHS</option>
-              <option value="">LAST 3 MONTHS</option>
-              <option value="">LAST 6 MONTHS</option>
-            </optgroup>
+            <option value="">LAST 7 DAYS</option>
+            <option value="">LAST 14 DAYS</option>
+            <option value="">LAST 30 DAYS</option>
+            <option value="">LAST 2 MONTHS</option>
+            <option value="">LAST 3 MONTHS</option>
+            <option value="">LAST 6 MONTHS</option>
           </select>
         </div>
       </div>
@@ -100,14 +96,12 @@ export function GigsMenu3RM() {
 
         <div className="gigs-active-dd">
           <select>
-            <optgroup>
-              <option value="">LAST 7 DAYS</option>
-              <option value="">LAST 14 DAYS</option>
-              <option value="">LAST 30 DAYS</option>
-              <option value="">LAST 2 MONTHS</option>
-              <option value="">LAST 3 MONTHS</option>
-              <option value="">LAST 6 MONTHS</option>
-            </optgroup>
+            <option value="">LAST 7 DAYS</option>
+            <option value="">LAST 14 DAYS</option>
+            <option value="">LAST 30 DAYS</option>
+            <option value="">LAST 2 MONTHS</option>
+            <option value="">LAST 3 MONTHS</option>
+            <option value="">LAST 6 MONTHS</option>
           </select>
         </div>
       </div>
@@ -143,14 +137,12 @@ export function GigsMenu4Draft() {
 
         <div className="gigs-active-dd">
           <select>
-            <optgroup>
-              <option value="">LAST 7 DAYS</option>
-              <option value="">LAST 14 DAYS</option>
-              <option value="">LAST 30 DAYS</option>
-              <option value="">LAST 2 MONTHS</option>
-              <option value="">LAST 3 MONTHS</option>
-              <option value="">LAST 6 MONTHS</option>
-            </optgroup>
+            <option value="">LAST 7 DAYS</option>
+            <option value="">LAST 14 DAYS</option>
+            <option value="">LAST 30 DAYS</option>
+            <option value="">LAST 2 MONTHS</option>
+            <option value="">LAST 3 MONTHS</option>
+            <option value="">LAST 6 MONTHS</option>
           </select>
         </div>
       </div>
@@ -186,14 +178,12 @@ export function GigsMenu5Denied() {
 
         <div className="gigs-active-dd">
           <select>
-            <optgroup>
-              <option value="">LAST 7 DAYS</option>
-              <option value="">LAST 14 DAYS</option>
-              <option value="">LAST 30 DAYS</option>
-              <option value="">LAST 2 MONTHS</option>
-              <option value="">LAST 3 MONTHS</option>
-              <option value="">LAST 6 MONTHS</option>
-            </optgroup>
+            <option value="">LAST 7 DAYS</option>
+            <option value="">LAST 14 DAYS</option>
+            <option value="">LAST 30 DAYS</option>
+            <option value="">LAST 2 MONTHS</option>
+            <option value="">LAST 3 MONTHS</option>
+            <option value="">LAST 6 MONTHS</option>
           </select>
         </div>
       </div>
@@ -229,14 +219,12 @@ export function GigsMenu6Paused() {
 
         <div className="gigs-active-dd">
           <select>
-            <optgroup>
-              <option value="">LAST 7 DAYS</option>
-              <option value="">LAST 14 DAYS</option>
-              <option value="">LAST 30 DAYS</option>
-              <option value="">LAST 2 MONTHS</option>
-              <option value="">LAST 3 MONTHS</option>
-              <option value="">LAST 6 MONTHS</option>
-            </optgroup>
+            <option value="">LAST 7 DAYS</option>
+            <option value="">LAST 14 DAYS</option>
+            <option value="">LAST 30 DAYS</option>
+            <option value="">LAST 2 MONTHS</option>
+            <option value="">LAST 3 MONTHS</option>
+            <option value="">LAST 6 MONTHS</option>
           </select>
         </div>
       </div>

@@ -1,11 +1,11 @@
 .MFrstDDashc1 {
-	/* background: linear-gradient(
+  /* background: linear-gradient(
 		to top,
 		rgba(15, 15, 15, 0.329),
 		rgba(237, 234, 234, 0.674)
 	); */
-	height: 400px;
-	/* padding-top: 30px; */
+  height: 400px;
+  /* padding-top: 30px; */
 }
 
 /* .FrstDDashc1 {
@@ -20,187 +20,186 @@
 } */
 
 .FrstDDashc1 {
-	/* width: 93%; */
-	margin-left: auto;
-	margin-right: auto;
-	/* margin-top: 30px; */
+  /* width: 93%; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 30px; */
 }
 
-.DivForProfileBack{
-	/* border-top-left-radius: 5px;
+.DivForProfileBack {
+  /* border-top-left-radius: 5px;
 	border-top-right-radius: 5px; */
-	width: 100%;
-	height: 250px;
-	background-image: url("./Images/Profile_Background.jpg");
-	background-size: cover;
+  width: 100%;
+  height: 250px;
+  background-image: url("./Images/Profile_Background.jpg");
+  background-size: cover;
 }
 
-.DivForProfileBack p{
-	text-align: end;
-	padding-top: 220px;
-	color: white;
-	/* padding-right: 10px; */
+.DivForProfileBack p {
+  text-align: end;
+  padding-top: 220px;
+  color: white;
+  /* padding-right: 10px; */
 }
 
-.DivForProfileBack p span{
-	background-color: rgba(0, 0, 0, 0.656);
-	padding: 5px;
-	border-radius: 10px;
-	cursor: pointer;
+.DivForProfileBack p span {
+  background-color: rgba(0, 0, 0, 0.656);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.DivForProfileBack p span:hover{
-	text-decoration: underline;
+.DivForProfileBack p span:hover {
+  text-decoration: underline;
 }
 
 .profileImg {
-	position: absolute;
-	top: 45%;
-	left: 41.5%;
-	border-radius: 110px;
-	border: 5px solid white;
-	background-color: white;
+  position: absolute;
+  top: 45%;
+  left: 41.5%;
+  border-radius: 110px;
+  border: 5px solid white;
+  background-color: white;
 }
 
 .profileImg img {
-	height: 170px;
-	width: 170px;
-	border-radius: 110px;
+  height: 170px;
+  width: 170px;
+  border-radius: 110px;
 }
 
 .profileDetail p:first-child {
-	font-size: 20px;
-	font-weight: 500;
-	text-align: center;
-	padding-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15px;
 }
 
-.profileDetail p:first-child span button{
-	/* height: 40px;
+.profileDetail p:first-child span button {
+  /* height: 40px;
 	width: 60px; */
-	background-color: white;
-	padding: 0px 5px;
-	border-radius: 40px;
-	transform: rotate(90deg);
-	font-weight: 900;
-	font-size: 20px;
-	position: absolute;
-	cursor: pointer;
-	user-select: none;
-	right: 10%;
-	border: none;
+  background-color: white;
+  padding: 0px 5px;
+  border-radius: 40px;
+  transform: rotate(90deg);
+  font-weight: 900;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+  right: 10%;
+  border: none;
 }
 
-.profileDetail p:first-child span button:hover{
-	border: 1px solid black;
+.profileDetail p:first-child span button:hover {
+  border: 1px solid black;
 }
 
 .profileDetail p:last-child span {
-	color: gray;
-	font-size: 20px;
-	font-weight: 500;
-	padding-left: 41.5%;
-	padding-top: 10px;
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 41.5%;
+  padding-top: 10px;
 }
 
 .TrdInnForLinkM {
-	display: flex;
-	width: 300px;
-	padding-left: 15px;
-	flex-wrap: wrap;
+  display: flex;
+  width: 300px;
+  padding-left: 15px;
+  flex-wrap: wrap;
 }
 
-.DivLinkMedia p{
-	padding-left: 25px;
-	font-weight: 600;
-	font-size: 17px;
+.DivLinkMedia p {
+  padding-left: 25px;
+  font-weight: 600;
+  font-size: 17px;
 }
 
-.DivLinkMedia{
-	background-color: white;
-	width: 22%;
-	padding: 15px;
-	border-radius: 5px;
-	position: absolute;
-	right: 5%;
-	border: 1px solid black;
-	display: none;
+.DivLinkMedia {
+  background-color: white;
+  width: 22%;
+  padding: 15px;
+  border-radius: 5px;
+  position: absolute;
+  right: 5%;
+  border: 1px solid black;
+  display: none;
 }
 
-.DivLinkMediaShow{
-	display: block;
+.DivLinkMediaShow {
+  display: block;
 }
 
 .Img1ForLinkM {
-	width: 50px;
-	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Img2ForLinkM {
-	width: 50px;
-	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Img3ForLinkM {
-	width: 50px;
-	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Img4ForLinkM {
-	width: 41px;
-	height: 41px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  width: 41px;
+  height: 41px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Img5ForLinkM {
-	width: 41px;
-	height: 41px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  width: 41px;
+  height: 41px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.Img6ForLinkM{
-	width: 50px;
-	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+.Img6ForLinkM {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-
-.FrstD2Dashc1{
-	background-color: rgba(255, 255, 255, 0.989);
-	padding: 35px 0px;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 10px;
+.FrstD2Dashc1 {
+  background-color: rgba(255, 255, 255, 0.989);
+  padding: 35px 0px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
-.FrstD2Dashc1 .DforUl{
-	/* background-color: rgba(0, 0, 0, 0.605); */
-	border: 2px solid goldenrod;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+.FrstD2Dashc1 .DforUl {
+  /* background-color: rgba(0, 0, 0, 0.605); */
+  border: 2px solid goldenrod;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* 
 .FrstD1Dashc1 {
@@ -240,18 +239,18 @@
 } */
 
 .FrstD2Dashc1 ul {
-	padding: 20px 20px 20px 20px;
-	margin: 0px;
+  padding: 20px 20px 20px 20px;
+  margin: 0px;
 }
 
 .SvnInnForDc1 {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .NameInPB {
-	padding-right: 20px;
-	/* background-color: rgb(175, 127, 5); */
+  padding-right: 20px;
+  /* background-color: rgb(175, 127, 5); */
 }
 
 /* css for TAKE these steps */
@@ -394,19 +393,19 @@
 	color: white;
 } */
 
-.UpgradeBussiness{
-	text-align: end;
-	padding: 10px 230px 10px 0px;
-	font-size: 20px;
-	font-weight: 600;
-	text-decoration: underline;
+.UpgradeBussiness {
+  text-align: end;
+  padding: 10px 230px 10px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
-.UpgradeBussiness span{
-	cursor: pointer;
+.UpgradeBussiness span {
+  cursor: pointer;
 }
 
-.UpgradeBussiness span:hover{
-	color: blue;
-	text-decoration: underline;
+.UpgradeBussiness span:hover {
+  color: blue;
+  text-decoration: underline;
 }
