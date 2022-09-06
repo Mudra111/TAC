@@ -163,26 +163,7 @@ p {
     margin: 1rem;
 }*/
 
-.sb-1 {
-  background-image: url("./Images/sb1.jpg");
-  background-position: center;
-}
-.sb-2 {
-  background-image: url("./Images/sb2.jpg");
-  background-position: center;
-}
-.sb-3 {
-  background-image: url("./Images/sb3.jpg");
-  background-position: center;
-}
-.sb-4 {
-  background-image: url("./Images/sb4.jfif");
-  background-position: center;
-}
-.sb-5 {
-  background-image: url("./Images/sb5.png");
-  background-position: center;
-}
+
 
 @media (max-width: 991.98px) {
   .main-box {

@@ -1,0 +1,116 @@
+.MainDivTACBC1 {
+	margin: 0%;
+	padding: 0%;
+	margin-bottom: 70px;
+}
+
+.FrstDTBC1 {
+	height: 700px;
+	background-color: rgb(20, 2, 104);
+	/* background: no-repeat url("./Images/tacb2.png"); */
+	/* background-size: cover; */
+}
+
+.imageTBC1 {
+	height: 600px;
+	margin-top: 125px;
+	margin-left: 900px;
+}
+
+.innD1TBC1 {
+	position: absolute;
+	height: 700px;
+	width: 55%;
+	/* background-color: rgba(196, 101, 251, 0.786); */
+    background-image: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0.43) 5%,
+		rgba(131, 125, 248, 0.552) 25%,
+		rgba(15, 3, 105, 0.552) 80%,
+		rgba(255, 255, 255, 0.518) 90%
+	);
+	top: -50px;
+	left: 150px;
+	border-top-left-radius: 350px;
+	border-top-right-radius: 350px;
+	border-bottom-right-radius: 450px;
+	border-bottom-left-radius: 450px;
+}
+
+.innD2TBC1 {
+	position: absolute;
+    line-height: normal;
+	color: white;
+	top: 100px;
+	left: 300px;
+	font-size: 65px;
+	font-weight: 600;
+	width: 35%;
+}
+
+.innD2TBC1 span{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 70px;
+    color: rgb(205, 245, 5);
+    /* background-color: rgba(0, 0, 0, 0.604); */
+    /* padding: 0px 20px 10px 20px; */
+    /* border-radius: 20px; */
+}
+
+.innD3TBC1{
+    position: absolute;
+    width: 40%;
+    color: white;
+    font-size: 30px;
+    top: 300px;
+    left: 300px;
+}
+
+.innD4TBC1{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    margin-left: 100px;
+	margin-top: 30px;
+	height: fit-content;
+
+}
+
+.ForminD4TBC1{
+    display: flex;
+	/* border: 1px solid rgb(203, 180, 4); */
+	width: fit-content;
+	border-radius: 5px;
+    
+}
+
+.SearchInputTBC1{
+    background-color: rgba(255, 255, 255, 0.8);
+	border: none;
+	outline: none;
+	padding: 10px;
+	width: 380px;
+	color: black;
+	font-size: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.BtnForSearchTBC1:hover{
+	background-color:rgba(12, 152, 252, 0.559);
+	color: white;
+}
+
+
+.BtnForSearchTBC1{
+    border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	background-color:rgb(0, 129, 220);
+	color: rgb(235, 235, 240);
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}

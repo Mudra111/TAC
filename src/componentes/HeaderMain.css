@@ -1,0 +1,54 @@
+.MainDHeaderMain {
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0px 70px 0px 50px;
+}
+
+.FstDHeaderM {
+	display: flex;
+	justify-content: space-between;
+}
+
+.DivForLogo img {
+	width: 90px;
+	height: 90px;
+}
+
+.DforBtns ul {
+	list-style: none;
+}
+
+.DforBtns ul li {
+	display: inline-block;
+	padding: 20px 20px;
+}
+
+.SignInLi {
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.SignInLi:hover {
+	background-color: rgba(255, 255, 255, 0.427);
+	color: whitesmoke;
+	padding: 7px 25px;
+	border-radius: 25px;
+    text-decoration: underline;
+}
+
+.JoinLi button {
+	padding: 7px 25px;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.JoinLi button:hover {
+	background-color: rgba(255, 255, 255, 0.553);
+	color: white;
+	border: 2px solid white;
+}
