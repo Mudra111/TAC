@@ -47,13 +47,13 @@ export default function home1() {
               ></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item home-main-img active">
                 <img src={Img1} class="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item home-main-img">
                 <img src={Img2} class="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item home-main-img">
                 <img src={Img3} class="d-block w-100" alt="..." />
               </div>
             </div>
@@ -115,7 +115,7 @@ export default function home1() {
 
       <div className="trusted-by-main">
         <div className="trusted-by">
-          <h5 className="text">Trusted by:</h5>
+          <h5 className="trusted-by_text">Trusted by:</h5>
           <ul className="trusted-by-list">
             <li>
               <picture>

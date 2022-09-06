@@ -17,8 +17,12 @@
   height: inherit;
 }
 
-.carousel-item img {
-  height: 700px !important;
+.home-main-img img {
+  height: 700px;
+}
+
+.carousel-inner {
+  overflow: visible;
 }
 
 .bottom-btn {
@@ -116,7 +120,7 @@ li.i1:hover {
   margin: 0;
 }
 
-.text {
+.trusted-by_text {
   padding-right: 20px;
   color: #b5b6ba;
   padding-top: 30px;
@@ -134,7 +138,7 @@ li.i1:hover {
   padding-right: 2rem;
   padding-bottom: 5rem;
   padding-top: 5rem;
-  background-color: hsla(160, 100%, 75%, 0.185);
+  /* background-color: hsla(160, 100%, 75%, 0.185); */
 }
 
 .heading {

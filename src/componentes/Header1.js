@@ -4,7 +4,6 @@ import "./header1.css";
 import Header2 from "./Header2";
 import logo from "./Images/logo.png";
 import Login from "./login";
-import Signin from "./SignIn";
 import SignIn from "./SignIn";
 
 export default function Header1(props) {
@@ -40,9 +39,9 @@ export default function Header1(props) {
             <li
               className={props.navbar ? "lh nav-item-onscroll" : "nav-item lh"}
             >
-              <a className="active" aria-current="page" href="#">
+              <Link className="active" aria-current="page" to="/TAC_Business">
                 <b>Tac Business</b>
-              </a>
+              </Link>
             </li>
             <li
               className={
@@ -238,7 +237,12 @@ export default function Header1(props) {
                   </Link>
                   <Link to="/DashBoardMain">
                     <a className="dropdown-item" href="#">
-                      DashboardMain
+                      Seller Dashboard
+                    </a>
+                  </Link>
+                  <Link to="/buyer_dashboard">
+                    <a className="dropdown-item" href="#">
+                      Buyer Dashboard
                     </a>
                   </Link>
                 </li>
