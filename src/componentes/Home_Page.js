@@ -7,19 +7,21 @@ import TAC_B_c1 from "./TAC_Business_comp1";
 import TAC_B_c6 from "./TAC_Business_comp6";
 import TAC_B_c3 from "./TAC_Business_comp3";
 import TAC_B_c2 from "./TAC_Business_comp2";
+import TAC_C_c1 from "./TAC_Community_comp1";
 
 export default function Home_Page() {
 	return (
 		<div>
 			<div className="HomeMainClass">
 				<Header />
-				<TAC_B_c1 />
+				
+				{/*<TAC_B_c1 />*/}
+				<TAC_C_c1 />
 				<TAC_B_c2 />
 				<TAC_B_c3 />
 				<TAC_B_c6 />
 				<Comp1 />
 				<Comp5 />
-				
 			</div>
 		</div>
 	);

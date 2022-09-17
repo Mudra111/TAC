@@ -1,0 +1,40 @@
+.MainDTCC1{
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(to left bottom,black 0% 60%,gray 85%,rgba(255, 255, 255, 0.852) 98%);
+}
+
+.D1TCC1{
+    width: 80%;
+    margin: auto;
+    padding: 90px 0px;
+}
+
+.InnD1TCC1 , .InnD2TCC1 , .InnD3TCC1 , .InnD4TCC1 , .InnD5TCC1{
+    position: absolute;
+}
+
+.InnD1TCC1 img{
+    height: 300px;
+    width: 400px;
+}
+
+.InnD2TCC1 img{
+    height: 300px;
+    width: 400px;
+}
+
+.InnD3TCC1 img{
+    height: 300px;
+    width: 400px;
+}
+
+.InnD4TCC1 img{
+    height: 300px;
+    width: 400px;
+}
+
+.InnD5TCC1 img{
+    height: 300px;
+    width: 400px;
+}
