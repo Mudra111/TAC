@@ -1,3 +1,63 @@
 .TACB_MainDiv {
   background: #0d084d;
 }
+
+.TACB-footer-cont {
+  color: white;
+  display: flex;
+  margin: 0px 20px;
+  padding: 10px 0px;
+}
+
+.TACB-Footer-Dis {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+}
+
+.TACB-Footer-Dis1 span {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(218, 234, 61);
+  font-style: italic;
+}
+
+.TACB-Footer-Dis div p {
+  width: 50%;
+  margin: 0px auto;
+  padding: 70px 0px;
+}
+
+.TACB-PP-Tos-p {
+  display: flex;
+}
+
+.TACB-PP-Tos-p p a {
+  color: white;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.TACB-PP-Tos-p p a:hover {
+  text-decoration: underline;
+}
+
+.TACB-PP-Tos-p p span {
+  color: white;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.TACB-title p span:first-of-type {
+  font-size: x-large;
+  font-weight: bold;
+  vertical-align: super;
+}
+
+.TACB-title p span:last-of-type {
+  font-size: x-large;
+  vertical-align: super;
+}
+
+.TACB-footer-CopyR p span {
+  vertical-align: -webkit-baseline-middle;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./TACBusComp4.css";
-import Img from "./Images/LSN-img2.svg";
+import Img from "./Images/profile-pic.png";
 
 export default function TACBusComp4() {
   return (
@@ -40,101 +40,109 @@ export default function TACBusComp4() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div className="main-con-div">
-              <div className="comments-div">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                  eos modi asperiores, expedita error quas exercitationem at
-                  voluptatibus, atque, dicta aperiam quisquam dignissimos in
-                  molestiae. Consequatur harum esse blanditiis ullam. Unde quia
-                  quo consectetur exercitationem molestias soluta expedita ut
-                  numquam?
-                </p>
-              </div>
-              <div>
-                <div>
-                  <img src={Img} alt="" />
-                </div>
-                <div className="name-div">
-                  <p>Lorem, ipsum.</p>
+            <div className="carousel-item-Subdiv">
+              <div className="main-con-div">
+                <div className="comments-div">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos eos modi asperiores, expedita error quas exercitationem
+                    at voluptatibus, atque, dicta aperiam quisquam dignissimos
+                    in molestiae. Consequatur harum esse blanditiis ullam. Unde
+                    quia quo consectetur exercitationem molestias soluta
+                    expedita ut numquam?
+                  </p>
                 </div>
                 <div>
-                  <p>Lorem ipsum dolor sit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div className="main-con-div">
-              <div className="comments-div">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                  eos modi asperiores, expedita error quas exercitationem at
-                  voluptatibus, atque, dicta aperiam quisquam dignissimos in
-                  molestiae. Consequatur harum esse blanditiis ullam. Unde quia
-                  quo consectetur exercitationem molestias soluta expedita ut
-                  numquam?
-                </p>
-              </div>
-              <div>
-                <div>
-                  <img src={Img} alt="" />
-                </div>
-                <div className="name-div">
-                  <p>Lorem, ipsum.</p>
-                </div>
-                <div>
-                  <p>Lorem ipsum dolor sit.</p>
+                  <div className="TACB_Com_ProfileImg">
+                    <img src={Img} alt="" />
+                  </div>
+                  <div className="name-div">
+                    <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div className="main-con-div">
-              <div className="comments-div">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                  eos modi asperiores, expedita error quas exercitationem at
-                  voluptatibus, atque, dicta aperiam quisquam dignissimos in
-                  molestiae. Consequatur harum esse blanditiis ullam. Unde quia
-                  quo consectetur exercitationem molestias soluta expedita ut
-                  numquam?
-                </p>
-              </div>
-              <div>
-                <div>
-                  <img src={Img} alt="" />
-                </div>
-                <div className="name-div">
-                  <p>Lorem, ipsum.</p>
+            <div className="carousel-item-Subdiv">
+              <div className="main-con-div">
+                <div className="comments-div">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos eos modi asperiores, expedita error quas exercitationem
+                    at voluptatibus, atque, dicta aperiam quisquam dignissimos
+                    in molestiae. Consequatur harum esse blanditiis ullam. Unde
+                    quia quo consectetur exercitationem molestias soluta
+                    expedita ut numquam?
+                  </p>
                 </div>
                 <div>
-                  <p>Lorem ipsum dolor sit.</p>
+                  <div className="TACB_Com_ProfileImg">
+                    <img src={Img} alt="" />
+                  </div>
+                  <div className="name-div">
+                    <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div className="main-con-div">
-              <div className="comments-div">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                  eos modi asperiores, expedita error quas exercitationem at
-                  voluptatibus, atque, dicta aperiam quisquam dignissimos in
-                  molestiae. Consequatur harum esse blanditiis ullam. Unde quia
-                  quo consectetur exercitationem molestias soluta expedita ut
-                  numquam?
-                </p>
+            <div className="carousel-item-Subdiv">
+              <div className="main-con-div">
+                <div className="comments-div">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos eos modi asperiores, expedita error quas exercitationem
+                    at voluptatibus, atque, dicta aperiam quisquam dignissimos
+                    in molestiae. Consequatur harum esse blanditiis ullam. Unde
+                    quia quo consectetur exercitationem molestias soluta
+                    expedita ut numquam?
+                  </p>
+                </div>
+                <div>
+                  <div className="TACB_Com_ProfileImg">
+                    <img src={Img} alt="" />
+                  </div>
+                  <div className="name-div">
+                    <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <div>
-                  <img src={Img} alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="carousel-item-Subdiv">
+              <div className="main-con-div">
+                <div className="comments-div">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos eos modi asperiores, expedita error quas exercitationem
+                    at voluptatibus, atque, dicta aperiam quisquam dignissimos
+                    in molestiae. Consequatur harum esse blanditiis ullam. Unde
+                    quia quo consectetur exercitationem molestias soluta
+                    expedita ut numquam?
+                  </p>
                 </div>
-                <div className="name-div">
-                  <p>Lorem, ipsum.</p>
-                </div>
                 <div>
-                  <p>Lorem ipsum dolor sit.</p>
+                  <div className="TACB_Com_ProfileImg">
+                    <img src={Img} alt="" />
+                  </div>
+                  <div className="name-div">
+                    <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                  </div>
                 </div>
               </div>
             </div>
