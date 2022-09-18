@@ -1,0 +1,149 @@
+.MainDivTACBC6{
+	margin-bottom: 50px;
+}
+
+.FrstDTBC6{
+    width: 70%;
+    margin: 0px auto 20px auto;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.que-itemTACBC6 {
+	border-radius: 3px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(215, 214, 214, 0.949);
+	padding-bottom: 0px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.que-link_TACBC6 {
+	color: rgb(64, 64, 64);
+	font-weight: 500;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 19px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.que-link_TACBC6:hover {
+	color: rgb(64, 64, 64);
+}
+
+.answTACBC6 {
+	color: rgb(110, 109, 109);
+	font-size: 16px;
+	padding-bottom: 10px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1s;
+    animation-name: ansHiddenTACBC6 ;
+    animation-duration: 1s;
+}
+
+@keyframes ansHiddenTACBC6{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+.removeTACBC6 {
+	display: none;
+}
+
+.Remove_showTACBC6 {
+	display: block;
+}
+
+.Add_hideTACBC6 {
+	display: none;
+}
+
+.answTACBC6 p {
+	margin: 10px 10px;
+	margin-bottom: 0;
+	border-radius: 5px;
+	padding: 0px 10px;
+    font-weight: 500;
+}
+
+.answTACBC6 p ul{
+    padding-top: 10px;
+}
+
+.answTACBC6 p ul li{
+    padding: 5px 0;
+}
+
+.answTACBC6 p ul li span{
+    color: rgb(85, 84, 84);
+}
+
+.ans1TACBC6 {
+	max-height: 90px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+.ans2TACBC6 {
+	max-height: 90px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+.ans3TACBC6 {
+	max-height: 90px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+.ans4TACBC6 {
+	max-height: 90px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+.ans5TACBC6 {
+	max-height: 65px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+.ans6TACBC6 {
+	max-height:65px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+.ans7TACBC6 {
+	max-height: 65px;
+	transition:1s ease-out;
+    animation-name: ansShowTACBC6 ;
+    animation-duration: 2s;
+}
+
+@keyframes ansShowTACBC6{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+

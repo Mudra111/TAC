@@ -15,6 +15,7 @@ import Gigs1 from "./componentes/Gigs1";
 import HomePage from "./componentes/Home_Page";
 import Buyerdashboard from "./componentes/Buyerdashboard";
 import TAC_Business from "./componentes/TAC_Business";
+import PostaReq from "./componentes/Post_a_Req";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route exact path="/Home_page" element={<HomePage />} />
         <Route exact path="/buyer_dashboard" element={<Buyerdashboard />} />
         <Route exact path="/TAC_Business" element={<TAC_Business />} />
+        <Route exact path="/postareq" element={<PostaReq />} />
       </Routes>
       <Footer />
     </Router>

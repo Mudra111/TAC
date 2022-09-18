@@ -1,0 +1,239 @@
+.MainDivPostAReq {
+	display: flex;
+	flex-direction: column;
+}
+
+.FstDPAR {
+	height: 200px;
+	/* background-color: black; */
+}
+
+.ScndDPAR {
+	text-align: center;
+	width: 100%;
+	border-top: 2px solid black;
+	margin-bottom: 100px;
+}
+
+.FstdinScndDPAR {
+	padding: 10px 0px;
+	margin: 10px 0px;
+}
+
+.ScnddinScndDPAR {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gainsboro;
+	padding: 30px 0px;
+	margin-top: 20px;
+}
+
+.Div1ScndInnScnd {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.ScnddinScndDPAR label {
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 9px;
+	width: 40%;
+	margin-left: auto;
+	text-align: left;
+	/* margin-right: auto; */
+}
+
+.ScnddinScndDPAR textarea {
+	width: 50%;
+	outline: none;
+	border: 2px solid gray;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: black;
+	font-size: 17px;
+	font-weight: 500;
+	height: 150px;
+	/* margin-left: auto; */
+	margin-right: auto;
+}
+
+.DivForAttachBtn {
+	text-align: end;
+	padding-right: 50px;
+}
+
+.DivForAttachBtn button {
+	padding: 7px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.712);
+	color: rgb(219, 217, 217);
+	font-weight: 600;
+}
+
+.DivForAttachBtn button:hover {
+	background-color: rgba(0, 0, 0, 0.992);
+}
+
+.ThrddinScndDPAR {
+	background-color: gainsboro;
+	margin: 30px auto;
+	width: 70%;
+	padding: 15px 0px;
+}
+
+.D1ThrdInnScndDPAR {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.D2ThrdInnScndDPAR {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.D3ThrdInnScndDPAR {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.SelectLabel input:focus {
+	outline: none;
+}
+
+.SelectLabel input {
+	padding: 5px 0px 5px 10px;
+  width: 250px;
+  margin: 0px 10px;
+}
+
+.SelectLabel input::placeholder {
+	color: black;
+}
+
+.SelectOptionHide {
+	display: none;
+}
+
+.SelectOptions {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 7px;
+	box-shadow: 3px 3px 3px rgb(123, 123, 123);
+	border: 1px solid rgb(136, 136, 136);
+	max-height: 200px;
+	overflow-y: scroll;
+	width: 200px;
+  z-index: 1;
+}
+
+.SelectOptions label {
+	padding: 10px 0px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.SelectOptions label:hover {
+	background-color: rgba(187, 186, 186, 0.56);
+}
+
+.SelectOptions label input {
+	opacity: 0;
+}
+
+.Select2Label input:focus {
+	outline: none;
+}
+
+.Select2Label input {
+	padding: 5px 0px 5px 10px;
+  width: 250px;
+}
+
+.Select2Label input::placeholder {
+	color: black;
+}
+
+.Select2OptionHide {
+	display: none;
+}
+
+.Select2Options {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 7px;
+	box-shadow: 3px 3px 3px rgb(123, 123, 123);
+	border: 1px solid rgb(136, 136, 136);
+	max-height: 200px;
+	overflow-y: scroll;
+	width: 200px;
+  z-index: 1;
+}
+
+.Select2Options label {
+	padding: 10px 0px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.Select2Options label:hover {
+	background-color: rgba(187, 186, 186, 0.56);
+}
+
+.Select2Options label input {
+	opacity: 0;
+}
+
+.FrthdinScndDPAR {
+	background-color: gainsboro;
+	margin: 30px auto;
+	width: 70%;
+	padding: 15px 0px;
+}
+
+.Div2FrthDin2DPAR{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 20px auto 6px auto;
+}
+
+.btn1D2FrthDin2DPAR button{
+	padding: 6px 20px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.762);
+	border-radius: 5px;
+}
+
+.btn2D2FrthDin2DPAR button{
+	padding: 6px 20px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.762);
+	border-radius: 5px;
+}
+
+.btn3D2FrthDin2DPAR button{
+	padding: 6px 20px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.762);
+	border-radius: 5px;
+}
+
+.btn4D2FrthDin2DPAR button{
+	padding: 6px 20px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.762);
+	border-radius: 5px;
+}

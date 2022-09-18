@@ -1,7 +1,7 @@
 import React from "react";
-import "./TACBusComp6.css";
+import "./TACBusComp7.css";
 
-export default function TACBusComp6() {
+export default function TACBusComp7() {
   return (
     <div className="TACB_MainDiv">
       <div className="TACB-Footer-Dis">
