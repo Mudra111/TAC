@@ -1,4 +1,40 @@
-.HomeMainClass {
+/* .HomeMainClass {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    at top,
+    rgba(2, 0, 36, 1) 5%,
+    rgb(5, 5, 87) 30%,
+    rgb(5, 5, 87) 50%,
+    rgb(3, 3, 111) 65%,
+    rgba(226, 0, 255, 1) 71%,
+    rgb(215, 215, 2) 76%,
+    rgb(5, 49, 195) 81%,
+  );
+  margin-bottom: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+} */
+
+/* .HomeMainClass2 {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    ellipse at top,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(5, 5, 87) 50%,
+    rgb(5, 5, 87) 50%,
+    rgb(3, 3, 111) 53%,
+    rgba(226, 0, 255, 1) 64%,
+    rgb(163, 172, 4) 71%
+  );
+  height: 700px;
+  margin-bottom: 500px;
+  transform: rotate(180deg);
+}
+
+.HomeMainClass img {
+  height: 700px;
+  width: 100%;
+  opacity: 0.5;
 	/* background: rgb(2, 0, 36);
 	background: radial-gradient(
 		 at top,
@@ -13,7 +49,5 @@
 		rgb(160, 1, 30) 78%,
 		rgb(5, 5, 87) 86%
 	); */
-	height: auto;
-    /* margin-bottom: 500px; */
-	
-}
+/* height: auto; */
+/* margin-bottom: 500px; */

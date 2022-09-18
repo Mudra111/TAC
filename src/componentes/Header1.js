@@ -4,7 +4,6 @@ import "./header1.css";
 import Header2 from "./Header2";
 import logo from "./Images/logo.png";
 import Login from "./login";
-import Signin from "./SignIn";
 import SignIn from "./SignIn";
 
 export default function Header1(props) {
@@ -40,9 +39,9 @@ export default function Header1(props) {
 						<li
 							className={props.navbar ? "lh nav-item-onscroll" : "nav-item lh"}
 						>
-							<a className="active" aria-current="page" href="#">
+							<Link className="active" to="/TAC_Business">
 								<b>Tac Business</b>
-							</a>
+							</Link>
 						</li>
 						<li
 							className={
@@ -126,7 +125,10 @@ export default function Header1(props) {
 								<b>Language</b>
 							</a>
 
-							<ul className="dropdown-menu ulDropDown2HeaderHome" aria-labelledby="navbarDropdown">
+							<ul
+								className="dropdown-menu ulDropDown2HeaderHome"
+								aria-labelledby="navbarDropdown"
+							>
 								<li className="LiInDropDown2HeaderHome">English</li>
 								<li className="LiInDropDown2HeaderHome">Deutsch</li>
 								<li className="LiInDropDown2HeaderHome">Espanol</li>
@@ -263,7 +265,7 @@ export default function Header1(props) {
 								data-bs-toggle="dropdown"
 								aria-current="page"
 								href="#"
-                onClick={() => {
+								onClick={() => {
 									setOpenSigninModal(true);
 								}}
 							>
@@ -284,7 +286,6 @@ export default function Header1(props) {
 							</button>
 							{openLoginModal && <Login closeLoginModal={setOpenLoginModal} />}
 						</li>
-						
 					</ul>
 				</div>
 			</nav>
