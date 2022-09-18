@@ -1,40 +1,140 @@
-.MainDTCC1{
-    height: 700px;
-    width: 100%;
-    background-image: linear-gradient(to left bottom,black 0% 60%,gray 85%,rgba(255, 255, 255, 0.852) 98%);
+.MainDTCC1 {
+	height: 700px;
+	width: 100%;
+	background-image: linear-gradient(
+		to right bottom,
+		black 0% 60%,
+		rgb(103, 101, 101) 90%,
+		rgba(134, 132, 132, 0.852) 100%
+	);
 }
 
-.D1TCC1{
-    width: 80%;
-    margin: auto;
-    padding: 90px 0px;
+.D1TCC1 {
+	width: 80%;
+	margin: auto;
+	padding: 90px 0px;
 }
 
-.InnD1TCC1 , .InnD2TCC1 , .InnD3TCC1 , .InnD4TCC1 , .InnD5TCC1{
-    position: absolute;
+.InnD1TCC1,
+.InnD2TCC1,
+.InnD3TCC1,
+.InnD4TCC1,
+.InnD5TCC1 {
+	position: absolute;
 }
 
-.InnD1TCC1 img{
-    height: 300px;
-    width: 400px;
+.InnD1TCC1 {
+	top: 170px;
+	left: 380px;
 }
 
-.InnD2TCC1 img{
-    height: 300px;
-    width: 400px;
+.InnD2TCC1 {
+	left: 300px;
+    top: 70px;
 }
 
-.InnD3TCC1 img{
-    height: 300px;
-    width: 400px;
+.InnD3TCC1 {
+	left: 430px;
+	top: 350px;
 }
 
-.InnD4TCC1 img{
-    height: 300px;
-    width: 400px;
+.InnD4TCC1 {
+	top: 240px;
+	left: 140px;
 }
 
-.InnD5TCC1 img{
-    height: 300px;
-    width: 400px;
+.InnD5TCC1 {
+	top: 470px;
+	left: 270px;
+}
+
+.InnD1TCC1 img {
+	height: 220px;
+	width: 280px;
+	box-shadow: 3px 3px 50px gray;
+	border: 2px solid black;
+}
+
+.InnD2TCC1 img {
+	height: 150px;
+	width: 250px;
+	box-shadow: 3px 3px 50px gray;
+}
+
+.InnD3TCC1 img {
+	height: 230px;
+	width: 280px;
+	box-shadow: 3px 3px 12px rgb(175, 174, 174);
+	border: 2px solid black;
+}
+
+.InnD4TCC1 img {
+	height: 200px;
+	width: 260px;
+	box-shadow: 3px 3px 50px rgb(167, 166, 166);
+	border: 2px solid black;
+}
+
+.InnD5TCC1 img {
+	height: 150px;
+	width: 200px;
+	box-shadow: 3px 3px 50px rgb(167, 166, 166);
+	border: 2px solid black;
+}
+
+.InnD6TCC1 {
+	position: absolute;
+	top: 190px;
+	left: 730px;
+	width: 40%;
+}
+
+.InnD6TCC1 .P1InnD6TCC1 {
+	font-size: 35px;
+	color: white;
+	font-weight: 600;
+}
+
+.InnD6TCC1 .P2InnD6TCC1 {
+	font-size: 20px;
+	color: white;
+	padding-top: 20px;
+}
+
+.InnD7TCC1 {
+	margin-top: 25px;
+    /* padding-left: 10px; */
+}
+
+.inputTCC1 {
+	background-color: transparent;
+	outline: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 350px;
+    font-size: 18px;
+}
+
+.inputTCC1::placeholder{
+    color: rgba(255, 255, 255, 0.551);
+    /* font-size: 20px; */
+}
+
+.searchbtnTCC1{
+    padding:10px 25px;
+    /* margin-left: 10px; */
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.searchbtnTCC1:hover{
+    background-color: rgba(255, 255, 255, 0.389);
 }
