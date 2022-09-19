@@ -1,122 +1,181 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 .nav1 {
-  width: 100%;
-  padding-right: 117px;
-  padding-left: 117px;
-  padding-top: 30px;
-  background: transparent;
-  padding-bottom: 20px;
+	width: 100%;
+	padding-right: 117px;
+	padding-left: 117px;
+	padding-top: 30px;
+	background: transparent;
+	padding-bottom: 20px;
 }
 
 .nav1-colorChange {
-  background-color: white;
-  color: black;
-  box-shadow: 3px 3px 3px rgb(50, 50, 50);
+	background-color: white;
+	color: black;
+	box-shadow: 3px 3px 3px rgb(50, 50, 50);
 }
 
 .nav-item a > b {
-  color: white;
-  vertical-align: middle;
+	color: white;
+	vertical-align: middle;
 }
 
 .nav-item-onscroll a > b {
-  color: black;
-  vertical-align: middle;
+	color: black;
+	vertical-align: middle;
 }
 
 .searchbtn {
-  color: white !important;
+	color: white !important;
 }
 
 .right form input {
-  height: 45px;
+	height: 45px;
 }
 
 .header1 {
-  position: fixed;
-  z-index: 150;
-  width: 100%;
+	position: fixed;
+	z-index: 150;
+	width: 100%;
 }
 
 .joinbtn {
-  border: 3px solid rgba(255, 255, 255, 0.721);
-  border-radius: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  background: rgba(255, 255, 255, 0.247);
+	border: 3px solid rgba(255, 255, 255, 0.721);
+	border-radius: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background: rgba(255, 255, 255, 0.247);
 }
 .joinbtn:hover {
-  background-color: white;
-  color: green;
+	background-color: white;
+	color: green;
 }
 
 .joinbtn-onscroll {
-  border: 3px solid rgba(255, 255, 255, 0.721);
-  border-radius: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  background: green;
+	border: 3px solid rgba(255, 255, 255, 0.721);
+	border-radius: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background: green;
 }
 
 .joinbtn-onscroll:hover {
-  background-color: darkgreen;
-  color: white;
+	background-color: darkgreen;
+	color: white;
 }
 .drop {
-  width: 500px;
+	width: 500px;
 }
 
 .dropdownli {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .dropdown-a {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .dropdown-p {
-  padding-left: 15px;
+	padding-left: 15px;
 }
 
 .tickmark {
-  height: 5px;
-  width: 5px;
-  color: black;
-  top: 0;
-  left: 0;
-  display: block;
+	height: 5px;
+	width: 5px;
+	color: black;
+	top: 0;
+	left: 0;
+	display: block;
 }
 
 .dropdown {
-  padding: 0;
+	padding: 0;
 }
 
 .scroll {
-  height: 200px;
-  overflow-y: scroll;
+	height: 200px;
+	overflow-y: scroll;
 }
 
 .setlogo {
-  height: 38px;
-  width: 50px;
+	height: 38px;
+	width: 50px;
 }
 
 .right {
-  margin-right: auto;
+	margin-right: auto;
 }
 
 body a.lh {
-  line-height: 0px;
+	line-height: 0px;
+}
+
+ul .ulInheaderHom {
+	margin-top: 20px !important;
+}
+
+.D1InDropHeaderHome {
+	width: 500px;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.D1InDropHeaderHome li{
+	cursor: pointer;
+}
+
+.P1InD1DropHeaderHome {
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.P2InD1DropHeaderHome {
+	font-size: 15px;
+	color: rgb(164, 163, 163);
+	font-weight: 500;
+	width: 200px;
+	/* padding: 0px 0px; */
+	padding-bottom: 10px;
+}
+
+.ulDropDown2HeaderHome{
+	margin-top: 20px !important;
+}
+
+.LiInDropDown2HeaderHome{
+	padding: 15px 0px 0px 20px;
+	cursor: pointer;
+}
+
+.ulDropDwon3HeaderHome{
+	width: 300px;
+	height: 300px !important;
+	margin-top: 20px !important;
+}
+
+.ulDropDwon3HeaderHome li{
+	cursor: pointer;
+}
+
+.P1DropDown3HeaderHome{
+	padding: 10px 0px 0px 35px;
+	font-weight: 600;
+	font-size: 17.5px;
+}
+
+.P2DropDown3HeaderHome{
+	padding: 0px 0px 0px 35px;
+	font-size: 15px;
 }

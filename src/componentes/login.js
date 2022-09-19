@@ -106,7 +106,7 @@ function Login({ closeLoginModal }) {
                 </div>
 
                 <div className="button">
-                  <button>Continue</button>
+                  <button><Link to="/Graphics&Design">Continue</Link></button>
                 </div>
 
                 <div className="agreement">
