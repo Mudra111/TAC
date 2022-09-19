@@ -1,0 +1,56 @@
+.TAC_Comm_SubComp1_MainDiv {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.TAC_C2SComp1_MainDiv {
+  border: 1px solid lightgray;
+  width: 90%;
+  height: 350px;
+  margin: 20px 30px;
+}
+
+.TAC_C2Comp1_SubBg {
+  display: flex;
+}
+
+.TAC_C2_Img img {
+  width: 260px;
+  height: 350px;
+}
+
+.TAC_C2_Con {
+  width: 50%;
+  margin: 10% auto;
+}
+
+.TAC_C2_Con .TAC_C2_Con_D1 {
+  background: lightgray;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 50%;
+  padding: 1px 7px;
+}
+
+.TAC_C2_Con .TAC_C2_Con_D2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+.TAC_C2_Con .TAC_C2_Con_D3 {
+  font-size: larger;
+  color: gray;
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+.TAC_C2_Con .TAC_C2_Con_D4 button {
+  color: white;
+  font-weight: 500;
+  background-color: black;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 0;
+}

@@ -1,0 +1,34 @@
+.TACC_Comp2_Title {
+  margin: 0 20px;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.TACC_Comp2_Nav {
+  display: flex;
+}
+
+.TACC_Comp2_NavItem {
+  font-size: larger;
+  font-weight: 500;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.TACC_Comp2_NavItem:hover {
+  background: gray;
+  color: white;
+  transition: 0.1s ease;
+  padding: 0 10px;
+  font-size: larger;
+  font-weight: 500;
+  margin: 20px 20px;
+}
+
+.TACC_Comp2_NavItem_Sel {
+  font-size: larger;
+  color: gray;
+  font-weight: 500;
+  margin: 20px 20px;
+}

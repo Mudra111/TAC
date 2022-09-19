@@ -1,126 +1,126 @@
 .sub-blockTBC2 {
-	height: 18rem;
-	width: 240px;
-	border-radius: 7px;
-	color: white;
-	/* border: 2px solid rgb(79, 78, 78); */
-	margin-left: 2.6rem !important;
-	margin-right: 0 !important;
-	cursor: pointer;
-	/* padding: 9rem 1rem 0rem 1rem; */
-	box-shadow: 3px 3px 2px rgb(138, 138, 138);
+  height: 18rem;
+  width: 240px;
+  border-radius: 7px;
+  color: white;
+  /* border: 2px solid rgb(79, 78, 78); */
+  margin-left: 2.6rem !important;
+  margin-right: 0 !important;
+  cursor: pointer;
+  /* padding: 9rem 1rem 0rem 1rem; */
+  box-shadow: 3px 3px 2px rgb(138, 138, 138);
 }
 
 .sub-blockTBC2:hover .sbD2 {
-	animation-name: backShow;
-	animation-duration: 0.5s;
-	background-image: linear-gradient(
-		to right,
-        rgba(1, 1, 59, 0.777),
-        rgba(255, 255, 255, 0.656)
-	);
-	color: white;
+  animation-name: backShow;
+  animation-duration: 0.5s;
+  background-image: linear-gradient(
+    to right,
+    rgba(1, 1, 59, 0.777),
+    rgba(255, 255, 255, 0.656)
+  );
+  color: white;
 }
 
 @keyframes backShow {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .sbD2 {
-	height: 18rem;
-	background: rgba(255, 255, 255, 0.542);
-	width: 240px;
-	border-radius: 7px;
-	padding: 2rem 0rem 2rem 1.5rem;
-	color: black;
+  height: 18rem;
+  background: rgba(255, 255, 255, 0.542);
+  width: 240px;
+  border-radius: 7px;
+  padding: 2rem 0rem 2rem 1.5rem;
+  color: black;
 }
 
 .sbp1 {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .main-sliderTBC2 {
-	margin-top: 6rem;
-	margin-bottom: 6rem;
-	padding: 0px 30px;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  padding: 0px 30px;
 }
 
 .slickk-arrow {
-	color: black;
+  color: black;
 }
 
-.slick-prev {
-	z-index: 100;
-	left: 20px !important;
+.TACB_Comp2_Sld .slick-prev {
+  z-index: 100;
+  left: 20px !important;
 }
 
-.slick-next {
-	z-index: 100;
-	right: 20px !important;
+.TACB_Comp2_Sld .slick-next {
+  z-index: 100;
+  right: 20px !important;
 }
 
-.slick-prev:before,
-.slick-next:before {
-	/* font-family: 'slick'; */
-	font-size: 40px;
-	line-height: 1;
-	opacity: 1;
-	color: black;
+.TACB_Comp2_Sld .slick-prev:before,
+.TACB_Comp2_Sld .slick-next:before {
+  /* font-family: 'slick'; */
+  font-size: 40px;
+  line-height: 1;
+  opacity: 1;
+  color: black;
 }
 
 .sb-1TBC2 {
-	background-image: url("./Images/TBC2img1.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img1.webp");
+  background-position: center;
 }
 .sb-2TBC2 {
-	background-image: url("./Images/TBC2img2.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img2.webp");
+  background-position: center;
 }
 .sb-3TBC2 {
-	background-image: url("./Images/TBC2img3.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img3.webp");
+  background-position: center;
 }
 .sb-4TBC2 {
-	background-image: url("./Images/TBC2img4.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img4.webp");
+  background-position: center;
 }
 .sb-5TBC2 {
-	background-image: url("./Images/TBC2img5.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img5.webp");
+  background-position: center;
 }
 
 .sb-6TBC2 {
-	background-image: url("./Images/TBC2img6.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img6.webp");
+  background-position: center;
 }
 
 .sb-7TBC2 {
-	background-image: url("./Images/TBC2img7.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img7.webp");
+  background-position: center;
 }
 
 .sb-8TBC2 {
-	background-image: url("./Images/TBC2img8.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img8.webp");
+  background-position: center;
 }
 
 .sb-9TBC2 {
-	background-image: url("./Images/TBC2img9.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img9.webp");
+  background-position: center;
 }
 
 .sb-10TBC2 {
-	background-image: url("./Images/TBC2img10.webp");
-	background-position: center;
+  background-image: url("./Images/TBC2img10.webp");
+  background-position: center;
 }
 
-.slick-list {
-	width: 90% !important;
-	height: 18.5rem !important;
-	margin: 0px auto;
+.TACB_Comp2_Sld .slick-list {
+  width: 90% !important;
+  height: 18.5rem !important;
+  margin: 0px auto;
 }

@@ -9,7 +9,15 @@ export default function TACBusComp7() {
           <p>
             Boost your business with <span>exceptional</span> talent
           </p>
-          <div></div>
+          <div>
+            <form className="ForminTBC7">
+              <input
+                className="SearchInputTBC7"
+                placeholder="Search for any digital service"
+              />
+              <button className="BtnForSearchTBC7">Search</button>
+            </form>
+          </div>
         </div>
       </div>
 
