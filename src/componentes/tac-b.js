@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./tac-b.css";
 import Reviewers from "./Reviewer-Slider";
 
@@ -21,9 +22,11 @@ export default function Tacb() {
             </li>
           </ul>
         </div>
-        <button className="btn text" type="button">
-          Explore TAC Business
-        </button>
+        <Link to="/TAC_Business">
+          <button className="btn_tacb text" type="button">
+            Explore TAC Business
+          </button>
+        </Link>
       </div>
       {/* <div className="tacbp">
                 <h2 className="h2 text">TAC budget planner</h2>

@@ -50,7 +50,7 @@ export default function TACWorkspace() {
             <button onClick={scroll4}>THE TAC WORKSPACE ADVANTAGE</button>
           </div>
           <div className="TAC_WS_scrollBtn">
-            <button onClick={scroll5}>KHALI AMNAM</button>
+            <button onClick={scroll5}>GET STARTED</button>
           </div>
           <div className="TAC_WS_scrollBtn">
             <button onClick={scroll6}>TAC WORKSPACE FAQs</button>

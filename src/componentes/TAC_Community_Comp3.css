@@ -1,3 +1,7 @@
+.TAC_Comm_Comp3_Main {
+  margin: 0px 0px 50px 0px;
+}
+
 .TACC_Comp3_Title {
   margin: 0 20px;
   font-size: 30px;
@@ -23,7 +27,8 @@
 
 .TAC_C3_Img img {
   width: 260px;
-  height: 350px;
+  height: 280px;
+  margin: 35px 0px 20px 30px;
 }
 
 .TAC_C3_Con {

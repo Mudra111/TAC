@@ -275,6 +275,12 @@ export default function Header1(props) {
               </a>
             </li>
             <li className={props.navbar ? "nav-item-onscroll" : "nav-item"}>
+              <Link to="DashboardMain">
+                <b>Seller Dashboard</b>
+              </Link>
+            </li>
+
+            <li className={props.navbar ? "nav-item-onscroll" : "nav-item"}>
               <a
                 className="signbtn active"
                 id="navbarDropdown"

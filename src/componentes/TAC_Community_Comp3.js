@@ -4,7 +4,7 @@ import Img from "./Images/TBC2img7.webp";
 
 export default function TAC_Community_Comp3() {
   return (
-    <div>
+    <div className="TAC_Comm_Comp3_Main">
       <div className="TACC_Comp3_Title">
         <p>Upcoming Events</p>
       </div>
