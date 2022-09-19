@@ -1,6 +1,6 @@
 .card1_Bg,
 .card3_Bg {
-  background: #0b012894;
+  background: #00416a;
   padding: 10px 0;
 }
 
@@ -11,7 +11,7 @@
 
 .main-cont .card1 {
   width: 75%;
-  height: 350px;
+  height: 400px;
   margin: 2rem auto;
   border-radius: 30px;
   perspective: 1000px;

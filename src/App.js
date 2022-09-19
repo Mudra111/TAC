@@ -16,7 +16,7 @@ import HomePage from "./componentes/Home_Page";
 import Buyerdashboard from "./componentes/Buyerdashboard";
 import TAC_Business from "./componentes/TAC_Business";
 import PostaReq from "./componentes/Post_a_Req";
-import Taccommunitycomp5 from "./componentes/TAC_Community_comp5"
+import TAC_Community from "./componentes/TAC_Community";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
         <Route exact path="/buyer_dashboard" element={<Buyerdashboard />} />
         <Route exact path="/TAC_Business" element={<TAC_Business />} />
         <Route exact path="/postareq" element={<PostaReq />} />
-        <Route exact path="/taccommunitycomp5" element={<Taccommunitycomp5 />} />
+        <Route exact path="/TAC_Community" element={<TAC_Community />} />
       </Routes>
       <Footer />
     </Router>

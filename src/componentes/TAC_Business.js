@@ -12,8 +12,8 @@ export default function TAC_Business() {
     <div>
       <TAC_Business_comp1 />
       <TAC_B_c2 />
-      <TAC_B_c3 />
       <TACBusComp4 />
+      <TAC_B_c3 />
       <TACBusComp5 />
       <TAC_Business_comp6 />
       <TACBusComp7 />
